@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react";
-import { getBookmarks } from "./services/bookmark";
+import { getBookmarks, moveBookmarks } from "./services/bookmark";
 import BookMarkCard from "./bookMarkCard";
 
 function App() {
   const [bookmarks, setBookmarks] = useState({});
   const [bookmarksURL, setBookmarksURL] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
-  const [draggedIndex, setDraggedIndex] = useState(null);
+  const [draggedId, setDraggedId] = useState(null);
   const [useFolderURLs, setUseFolderURLs] = useState(false);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ function App() {
         const rootChildren = bookmarks[0]?.children || [];
         const urls = extractBookmarkUrls(rootChildren);
         setBookmarksURL(urls);
-        console.log("root children : ", rootChildren);
+        console.log("root children : ", rootChildren); 
         setBookmarks(transformBookmarkTree(rootChildren));
       })
       .catch(console.error);
@@ -105,23 +105,43 @@ function App() {
     }
   }
 
-  const handleDragStart = (index) => {
-    setDraggedIndex(index);
+  const handleDragStart = (id) => {
+    setDraggedId(id);
   };
 
   const handleDragOver = (e) => {
     e.preventDefault();
   };
 
-  const handleDrop = (dropIndex) => {
-    if (draggedIndex === null || draggedIndex === dropIndex) return;
+  const handleDrop = async (e, dropId) => {
+    e.preventDefault();
+    if (!draggedId || draggedId === dropId) return;
+
+    const draggedIndex = bookmarksURL.findIndex((b) => b.id === draggedId);
+    const dropIndex = bookmarksURL.findIndex((b) => b.id === dropId);
+
+    if (draggedIndex === -1 || dropIndex === -1) return;
 
     const updatedList = [...bookmarksURL];
     const [movedItem] = updatedList.splice(draggedIndex, 1);
     updatedList.splice(dropIndex, 0, movedItem);
 
     setBookmarksURL(updatedList);
-    setDraggedIndex(null);
+    setDraggedId(null);
+
+    const targetItem = bookmarksURL[dropIndex];
+
+    if (movedItem && targetItem) {
+      try {
+        await moveBookmarks(
+          movedItem.id,
+          targetItem.parentId,
+          targetItem.index,
+        );
+      } catch (err) {
+        console.log("Error while moving bookmark :", err);
+      }
+    }
   };
 
   const filteredBookmarks = bookmarksURL.filter((bookmark) => {
@@ -173,16 +193,16 @@ function App() {
         </div>
 
         <div className="bookmarks-list">
-          {filteredBookmarks.map((value, index) => (
+          {filteredBookmarks.map((value) => (
             <BookMarkCard
               key={value.id}
               name={value.title}
               url={value.url}
               lastVisited={value.dateLastUsed}
               showLastVisited={false}
-              onDragStart={() => handleDragStart(index)}
+              onDragStart={() => handleDragStart(value.id)}
               onDragOver={handleDragOver}
-              onDrop={() => handleDrop(index)}
+              onDrop={(e) => handleDrop(e, value.id)}
             />
           ))}
         </div>
