@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Smart Bookmark",
+  "version": "1.0.0",
+  "description": "A Smart Chrome bookmark manager",
+  "permissions": [
+    "bookmarks"
+  ],
+  "action": {
+    "default_popup": "index.html"
+  }
+}

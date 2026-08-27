@@ -1,0 +1,4348 @@
+[
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "dateAdded": 1768756308204,
+                        "id": "418",
+                        "index": 0,
+                        "parentId": "416",
+                        "syncing": true,
+                        "title": "admin",
+                        "url": "https://github.com/openmrs/openmrs-distro-referenceapplication"
+                    },
+                    {
+                        "dateAdded": 1768385181074,
+                        "id": "415",
+                        "index": 1,
+                        "parentId": "416",
+                        "syncing": true,
+                        "title": "Kling AI: Next-Gen AI Video & AI Image Generator",
+                        "url": "https://app.klingai.com/global/"
+                    }
+                ],
+                "dateAdded": 1768385198451,
+                "dateGroupModified": 1785653633397,
+                "id": "416",
+                "index": 0,
+                "parentId": "1",
+                "syncing": true,
+                "title": "AI Sites"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1762529650729,
+                        "id": "294",
+                        "index": 0,
+                        "parentId": "297",
+                        "syncing": true,
+                        "title": "Uplers | All Jobs",
+                        "url": "https://platform.uplers.com/talent/all-opportunities?activeJob=HR090725204600"
+                    }
+                ],
+                "dateAdded": 1762529680101,
+                "dateGroupModified": 1762542623259,
+                "id": "297",
+                "index": 1,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Carrier"
+            },
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "dateAdded": 1696005228000,
+                                "id": "151",
+                                "index": 0,
+                                "parentId": "149",
+                                "syncing": true,
+                                "title": "Amazon",
+                                "url": "https://sellercentral.amazon.com/external-payments/amazon-pay/integration-central/lwa"
+                            },
+                            {
+                                "dateAdded": 1699258994000,
+                                "id": "152",
+                                "index": 1,
+                                "parentId": "149",
+                                "syncing": true,
+                                "title": "buddy4study.com/application/TCPS24/form/personalInfo",
+                                "url": "https://www.buddy4study.com/application/TCPS24/form/personalInfo"
+                            },
+                            {
+                                "dateAdded": 1695735257000,
+                                "id": "150",
+                                "index": 2,
+                                "parentId": "149",
+                                "syncing": true,
+                                "title": "First Issue | Java Language",
+                                "url": "https://firstissue.dev/language/java/"
+                            },
+                            {
+                                "dateAdded": 1699454973000,
+                                "id": "153",
+                                "index": 3,
+                                "parentId": "149",
+                                "syncing": true,
+                                "title": "How to assign values to variables in Python and other languages - GeeksforGeeks",
+                                "url": "https://www.geeksforgeeks.org/how-to-assign-values-to-variables-in-python-and-other-languages/?ref=lbp"
+                            },
+                            {
+                                "dateAdded": 1699508056000,
+                                "id": "154",
+                                "index": 4,
+                                "parentId": "149",
+                                "syncing": true,
+                                "title": "Robokits India, Easy to use, Versatile Robotics & DIY kits",
+                                "url": "https://robokits.co.in/"
+                            }
+                        ],
+                        "dateAdded": 1727818178382,
+                        "dateGroupModified": 1786301788322,
+                        "id": "149",
+                        "index": 0,
+                        "parentId": "148",
+                        "syncing": true,
+                        "title": "Other bookmarks"
+                    }
+                ],
+                "dateAdded": 1727818178382,
+                "dateGroupModified": 1727818178382,
+                "id": "148",
+                "index": 2,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Imported from Google Chrome Sudhanshu."
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1762932010437,
+                        "dateLastUsed": 1763181430427,
+                        "id": "306",
+                        "index": 0,
+                        "parentId": "307",
+                        "syncing": true,
+                        "title": "Object methods, \"this\"",
+                        "url": "https://javascript.info/object-methods"
+                    },
+                    {
+                        "dateAdded": 1762936342982,
+                        "dateLastUsed": 1763093070764,
+                        "id": "308",
+                        "index": 1,
+                        "parentId": "307",
+                        "syncing": true,
+                        "title": "Optional chaining '?.'",
+                        "url": "https://javascript.info/optional-chaining"
+                    }
+                ],
+                "dateAdded": 1762932056369,
+                "dateGroupModified": 1786301788295,
+                "id": "307",
+                "index": 3,
+                "parentId": "1",
+                "syncing": true,
+                "title": "JavaScript Diary"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1760294102691,
+                        "id": "261",
+                        "index": 0,
+                        "parentId": "253",
+                        "syncing": true,
+                        "title": "Document",
+                        "url": "https://www.jenkins.io/participate/document/"
+                    },
+                    {
+                        "dateAdded": 1760092553330,
+                        "dateLastUsed": 1760187491887,
+                        "id": "256",
+                        "index": 1,
+                        "parentId": "253",
+                        "syncing": true,
+                        "title": "Gitter * | jenkinsci/hacktoberfest",
+                        "url": "https://app.gitter.im/#/room/#jenkinsci_hacktoberfest:gitter.im"
+                    },
+                    {
+                        "dateAdded": 1760093168494,
+                        "id": "258",
+                        "index": 2,
+                        "parentId": "253",
+                        "syncing": true,
+                        "title": "Hacktoberfest in Jenkins FAQ",
+                        "url": "https://www.jenkins.io/events/hacktoberfest/faq/"
+                    },
+                    {
+                        "dateAdded": 1760093554640,
+                        "id": "254",
+                        "index": 3,
+                        "parentId": "253",
+                        "syncing": true,
+                        "title": "Hacktoberfest QuickStart",
+                        "url": "https://www.jenkins.io/events/hacktoberfest/"
+                    },
+                    {
+                        "dateAdded": 1760191866555,
+                        "dateLastUsed": 1760358881004,
+                        "id": "260",
+                        "index": 4,
+                        "parentId": "253",
+                        "syncing": true,
+                        "title": "Jenkins Developer Guide",
+                        "url": "https://www.jenkins.io/doc/developer/"
+                    },
+                    {
+                        "dateAdded": 1760093603066,
+                        "dateLastUsed": 1760187453503,
+                        "id": "255",
+                        "index": 5,
+                        "parentId": "253",
+                        "syncing": true,
+                        "title": "Jenkins Github",
+                        "url": "https://github.com/jenkinsci/jenkins"
+                    },
+                    {
+                        "dateAdded": 1760187751629,
+                        "id": "259",
+                        "index": 6,
+                        "parentId": "253",
+                        "syncing": true,
+                        "title": "Jenkins Jira ",
+                        "url": "https://issues.jenkins.io/browse/JENKINS-71955?jql=labels%20%3D%20newbie-friendly%20and%20status%20in%20(Open%2C%20%22To%20Do%22%2C%20Reopened)"
+                    },
+                    {
+                        "dateAdded": 1760093631333,
+                        "dateLastUsed": 1760291939974,
+                        "id": "257",
+                        "index": 7,
+                        "parentId": "253",
+                        "syncing": true,
+                        "title": "Participate and Contribute",
+                        "url": "https://www.jenkins.io/participate/"
+                    },
+                    {
+                        "dateAdded": 1760336115415,
+                        "dateLastUsed": 1760358865821,
+                        "id": "262",
+                        "index": 8,
+                        "parentId": "253",
+                        "syncing": true,
+                        "title": "Plugin Wiki Pages",
+                        "url": "https://www.jenkins.io/doc/developer/publishing/wiki-page/#migrating-from-wiki-to-github"
+                    },
+                    {
+                        "dateAdded": 1760850468849,
+                        "id": "263",
+                        "index": 9,
+                        "parentId": "253",
+                        "syncing": true,
+                        "title": "Repos",
+                        "url": "https://github.com/sudhanshu-raj?tab=repositories"
+                    }
+                ],
+                "dateAdded": 1760093597055,
+                "dateGroupModified": 1786301788319,
+                "id": "253",
+                "index": 4,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Jenkins"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1764010788774,
+                        "id": "326",
+                        "index": 0,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "300 Java Developers 3 to 7 Years Experience Job Vacancies | Indeed",
+                        "url": "https://in.indeed.com/q-java-developers-3-to-7-years-experience-jobs.html?__cf_chl_tk=5PZTrWvhHSYEpcVIOQtb_f_uZkF15zyBzzZ3VImHAM8-1764010588-1.0.1.1-flueSqOy3NDQutrXF3IaS2eO2lKepAskjVSu6ZYpijg&vjk=8d9cd57efc697884"
+                    },
+                    {
+                        "dateAdded": 1764319786103,
+                        "id": "341",
+                        "index": 1,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Angel AI - World's Best AI Interview Copilot & Invisible Interview Helper | LazyJobSeeker | LazyJobSeeker",
+                        "url": "https://www.lazyjobseeker.com/angel"
+                    },
+                    {
+                        "dateAdded": 1766414631040,
+                        "dateLastUsed": 1766473088185,
+                        "id": "395",
+                        "index": 2,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Arise Registration",
+                        "url": "https://register.arise.com/opportunities"
+                    },
+                    {
+                        "dateAdded": 1767158443174,
+                        "id": "408",
+                        "index": 3,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Business Insights Hub",
+                        "url": "https://businessinsightshub.com/surveys?pid=6954b0b8014f29f2f33ceb85"
+                    },
+                    {
+                        "dateAdded": 1767419614333,
+                        "id": "413",
+                        "index": 4,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Candidate Home",
+                        "url": "https://massmutual.wd1.myworkdayjobs.com/en-US/MMINDCareersite/userHome"
+                    },
+                    {
+                        "dateAdded": 1763617126510,
+                        "id": "320",
+                        "index": 5,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Capgemini Careers & Job Openings | Capgemini India",
+                        "url": "https://www.capgemini.com/in-en/careers/?page=1&size=11&country_code=in-en"
+                    },
+                    {
+                        "dateAdded": 1764059228343,
+                        "id": "330",
+                        "index": 6,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Career Opportunities: My Profile",
+                        "url": "https://career5.successfactors.eu/portalcareer?_s.crb=91ihAYFJZBg7WkTIrGymQi%252fWu655TD6WVRYGG2SJEi0%253d"
+                    },
+                    {
+                        "dateAdded": 1764146275546,
+                        "id": "334",
+                        "index": 7,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Careers | CGI.com",
+                        "url": "https://cgi.njoyn.com/corp/xweb/xweb.asp?clid=21001&page=jobdetails&jobid=J1125-1400&BRID=1251052&SBDID=943&lang=1"
+                    },
+                    {
+                        "dateAdded": 1764008309401,
+                        "id": "325",
+                        "index": 8,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Citi Bank Jobs Home",
+                        "url": "https://citi.wd5.myworkdayjobs.com/en-US/2/userHome"
+                    },
+                    {
+                        "dateAdded": 1764244121810,
+                        "id": "337",
+                        "index": 9,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Cognyte Careers",
+                        "url": "https://www.cognyte.com/careers/"
+                    },
+                    {
+                        "dateAdded": 1763967969166,
+                        "id": "324",
+                        "index": 10,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Copy of Dynamic Software Engineer with a proven track record at HCL Tech, where I developed secure interfaces and enhanced system applications. Expert in Java Spring boot, JSP and ReactJS, I excel in collaboration and problem-solving, significantly improv - A4",
+                        "url": "https://www.canva.com/design/DAG5lfZNTOk/mAB-e9O_U3rl-jCp22mZ3w/edit"
+                    },
+                    {
+                        "dateAdded": 1764505585475,
+                        "id": "345",
+                        "index": 11,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Explore Tech Jobs | SourcingXPress",
+                        "url": "https://www.sourcingxpress.com/"
+                    },
+                    {
+                        "dateAdded": 1764253759817,
+                        "id": "339",
+                        "index": 12,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "HI Bilingual Assessment v169.0",
+                        "url": "https://app.dataannotation.tech/workers/tasks/08776e65-e843-4141-888e-e26357be890f?task_response_id=dbba878c-0a08-49ad-b123-246849c14f17"
+                    },
+                    {
+                        "dateAdded": 1763928065140,
+                        "id": "322",
+                        "index": 13,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Impetus Careers | Make your mark",
+                        "url": "https://impetus.openings.co/impetus/#!/"
+                    },
+                    {
+                        "dateAdded": 1764656045505,
+                        "id": "349",
+                        "index": 14,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Infosys :: Java Developer Interview Questions",
+                        "url": "https://aeolian-language-d95.notion.site/Infosys-Java-Developer-Interview-Questions-d04db6ed251c4e2d89a2fd5802d09bea"
+                    },
+                    {
+                        "dateAdded": 1764055138261,
+                        "id": "329",
+                        "index": 15,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Java Backend - NTT DATA Services Jobs",
+                        "url": "https://careers-inc.nttdata.com/search/?createNewAlert=false&q=java+backend&locationsearch="
+                    },
+                    {
+                        "dateAdded": 1764330512102,
+                        "id": "342",
+                        "index": 16,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Java Developer Junior Level salaries by 18000+ Employees (Updated 2025) | AmbitionBox",
+                        "url": "https://www.ambitionbox.com/profile/java-developer-salary?experience=3"
+                    },
+                    {
+                        "dateAdded": 1764661175253,
+                        "id": "350",
+                        "index": 17,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Job Search",
+                        "url": "https://genpact.taleo.net/careersection/sgy_external_career_section/jobsearch.ftl?lang=en&portal=44100025334&career-search=java"
+                    },
+                    {
+                        "dateAdded": 1764145894583,
+                        "id": "333",
+                        "index": 18,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Job Search - Job Vacancies - Employment - Recruitment Agencies | PlacementIndia.com",
+                        "url": "https://www.placementindia.com/"
+                    },
+                    {
+                        "dateAdded": 1766500757190,
+                        "id": "397",
+                        "index": 19,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Learn SAP skills | SAP Learning",
+                        "url": "https://learning.sap.com/"
+                    },
+                    {
+                        "dateAdded": 1778701564004,
+                        "id": "485",
+                        "index": 20,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Madiro Careers",
+                        "url": "https://madiro.freshteam.com/jobs/E-uvIGAaoTH4/madiro-talent-roster-digital-health-engineers-specialists-en-fr"
+                    },
+                    {
+                        "dateAdded": 1764867465447,
+                        "id": "356",
+                        "index": 21,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Mercor | Open Source Developers",
+                        "url": "https://work.mercor.com/explore?listingId=list_AAABmqkL5xFTseuNoQ1I3ZC9"
+                    },
+                    {
+                        "dateAdded": 1764244116390,
+                        "id": "336",
+                        "index": 22,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Mid Java Backend Developer",
+                        "url": "https://www.cognyte.com/careers/E5.F52/mid-java-backend-developer---pune/"
+                    },
+                    {
+                        "dateAdded": 1764507426076,
+                        "id": "347",
+                        "index": 23,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "My Jobfeed - hirist.tech",
+                        "url": "https://www.hirist.tech/jobfeed?minexp=4&maxexp=6&ref=linkedin"
+                    },
+                    {
+                        "dateAdded": 1763549961993,
+                        "id": "317",
+                        "index": 24,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "My jobs | Indeed",
+                        "url": "https://myjobs.indeed.com/saved"
+                    },
+                    {
+                        "dateAdded": 1763459893950,
+                        "id": "315",
+                        "index": 25,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "NTT DATA Jobs & Careers - 6 Open Positions | Glassdoor",
+                        "url": "https://www.glassdoor.co.in/Jobs/NTT-DATA-mdm-Jobs-EI_IE7649.0,8_KO9,12.htm?filter.countryId=115&filter.sortBy=relevant_desc"
+                    },
+                    {
+                        "dateAdded": 1764504929435,
+                        "id": "344",
+                        "index": 26,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Opportunities - Instahyre",
+                        "url": "https://www.instahyre.com/candidate/opportunities/?matching=true"
+                    },
+                    {
+                        "dateAdded": 1766413421980,
+                        "id": "393",
+                        "index": 27,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Paid research studies | User Interviews",
+                        "url": "https://www.userinterviews.com/studies?sort=-id"
+                    },
+                    {
+                        "dateAdded": 1767159097588,
+                        "id": "411",
+                        "index": 28,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Remote Jobs in Programming, Design, Sales and more #OpenSalaries",
+                        "url": "https://remoteok.com/"
+                    },
+                    {
+                        "dateAdded": 1767159075730,
+                        "id": "409",
+                        "index": 29,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Remote Jobs in Programming, Support, Design and more",
+                        "url": "https://remotive.com/"
+                    },
+                    {
+                        "dateAdded": 1766414602028,
+                        "id": "394",
+                        "index": 30,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Remotive",
+                        "url": "https://remotive.com/job-copilot"
+                    },
+                    {
+                        "dateAdded": 1764099474232,
+                        "id": "331",
+                        "index": 31,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Similar Jobs | foundit India",
+                        "url": "https://www.foundit.in/seeker/similar-jobs?searchId=e413cd3e-01e5-4f4b-acfc-af7327beff82"
+                    },
+                    {
+                        "dateAdded": 1764012552259,
+                        "id": "327",
+                        "index": 32,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Snaphunt",
+                        "url": "https://snaphunt.com/candidateDashboard"
+                    },
+                    {
+                        "dateAdded": 1764506377732,
+                        "id": "346",
+                        "index": 33,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Soul AI By Deccan AI",
+                        "url": "https://platform.soulhq.ai/?utm_medium=Java_backend_developer&utm_source=linkedIn&utm_campaign=Swe_bench&utm_id=1522"
+                    },
+                    {
+                        "dateAdded": 1763315983254,
+                        "id": "312",
+                        "index": 34,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Startup Jobs | Wellfound",
+                        "url": "https://wellfound.com/jobs"
+                    },
+                    {
+                        "dateAdded": 1767159091596,
+                        "dateLastUsed": 1767802183438,
+                        "id": "410",
+                        "index": 35,
+                        "parentId": "313",
+                        "syncing": true,
+                        "title": "Work From Home Benefits Services Representative — Remote Habits",
+                        "url": "https://remotehabits.com/job/work-from-home-benefits-services-representative-608744/"
+                    }
+                ],
+                "dateAdded": 1763315996618,
+                "dateGroupModified": 1786301788294,
+                "id": "313",
+                "index": 5,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Jobs"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1765543829753,
+                        "id": "380",
+                        "index": 0,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "(10995) Nikhil Kamath's Advice to Zepto Co-founder - YouTube",
+                        "url": "https://www.youtube.com/watch?v=l-fkaPxNze0"
+                    },
+                    {
+                        "dateAdded": 1767106235079,
+                        "id": "406",
+                        "index": 1,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "A fixed-size, indexed data structure that holds elements of the same type in a contiguous manner. - 1536 × 1024px",
+                        "url": "https://www.canva.com/design/DAG8_h0B1No/dV1wfuWpCFxcp2rpzAwVMQ/edit?ui=e30"
+                    },
+                    {
+                        "dateAdded": 1763066231049,
+                        "id": "310",
+                        "index": 2,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "Advanced Java Tutorial | Mastery in Java Programming - GeeksforGeeks",
+                        "url": "https://www.geeksforgeeks.org/advance-java/advanced-java/"
+                    },
+                    {
+                        "dateAdded": 1766565730713,
+                        "id": "399",
+                        "index": 3,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "AI For Bharat | Roadmap | Hack2skill",
+                        "url": "https://vision.hack2skill.com/event/ai-for-bharat/dashboard/roadmap?utm_source=hack2skill&utm_medium=homepage"
+                    },
+                    {
+                        "dateAdded": 1762582088410,
+                        "id": "300",
+                        "index": 4,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "An Interactive Guide to Flexbox in CSS • Josh W. Comeau",
+                        "url": "https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/"
+                    },
+                    {
+                        "dateAdded": 1764839835310,
+                        "id": "355",
+                        "index": 5,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "Array methods",
+                        "url": "https://javascript.info/array-methods"
+                    },
+                    {
+                        "dateAdded": 1766573461169,
+                        "id": "400",
+                        "index": 6,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "Bahasha - Bulk WhatsApp Messaging Made Easy",
+                        "url": "https://www.bahasha.app/sudhanshus-team/broadcast/whatsapp/select-template/68f7256de55e300d00a9ddf4"
+                    },
+                    {
+                        "dateAdded": 1766947522214,
+                        "id": "402",
+                        "index": 7,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "Generative AI with Large Language Models - DeepLearning.AI",
+                        "url": "https://learn.deeplearning.ai/courses/generative-ai-with-llms/lesson/ssxk6/introduction---week-1"
+                    },
+                    {
+                        "dateAdded": 1764784406814,
+                        "dateLastUsed": 1764824859769,
+                        "id": "353",
+                        "index": 8,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "JavaScript specials",
+                        "url": "https://javascript.info/javascript-specials"
+                    },
+                    {
+                        "children": [],
+                        "dateAdded": 1764940571588,
+                        "dateGroupModified": 1764940571588,
+                        "id": "359",
+                        "index": 9,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "New folder"
+                    },
+                    {
+                        "dateAdded": 1765036813692,
+                        "dateLastUsed": 1769709254663,
+                        "id": "364",
+                        "index": 10,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "Om Sharma | Software Engineer",
+                        "url": "https://www.omsharma.xyz/"
+                    },
+                    {
+                        "dateAdded": 1767003076679,
+                        "id": "404",
+                        "index": 11,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "Overview | WhatsApp Manager",
+                        "url": "https://business.facebook.com/latest/whatsapp_manager/overview/?asset_id=1501209044290439&business_id=865091579595436"
+                    },
+                    {
+                        "dateAdded": 1765442084723,
+                        "id": "378",
+                        "index": 12,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "Quick Start – React",
+                        "url": "https://react.dev/learn"
+                    },
+                    {
+                        "dateAdded": 1771425739091,
+                        "id": "443",
+                        "index": 13,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "Swayam Central",
+                        "url": "https://swayam.gov.in/"
+                    },
+                    {
+                        "dateAdded": 1762800450220,
+                        "id": "304",
+                        "index": 14,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "Writing a Java Program with Native Methods",
+                        "url": "https://www.iitk.ac.in/esc101/05Aug/tutorial/native1.1/stepbystep/index.html"
+                    },
+                    {
+                        "dateAdded": 1787637782834,
+                        "id": "560",
+                        "index": 15,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "AI Engineering from Scratch",
+                        "url": "https://aiengineeringfromscratch.com/"
+                    },
+                    {
+                        "dateAdded": 1787640476110,
+                        "id": "561",
+                        "index": 16,
+                        "parentId": "301",
+                        "syncing": true,
+                        "title": "Learn | Pinecone",
+                        "url": "https://www.pinecone.io/learn/"
+                    }
+                ],
+                "dateAdded": 1762582103421,
+                "dateGroupModified": 1787644895936,
+                "id": "301",
+                "index": 6,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Learnings"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1776408316675,
+                        "dateLastUsed": 1777279931528,
+                        "id": "471",
+                        "index": 0,
+                        "parentId": "472",
+                        "syncing": true,
+                        "title": "Evofox Banshee Help Page – Amkette",
+                        "url": "https://www.amkette.com/pages/evofox-banshee-help-page"
+                    },
+                    {
+                        "dateAdded": 1776408367895,
+                        "id": "474",
+                        "index": 1,
+                        "parentId": "472",
+                        "syncing": true,
+                        "title": "EvoFox Banshee_QSG-print.cdr",
+                        "url": "https://cdn.shopify.com/s/files/1/0676/1273/7846/files/EvoFox_Banshee_QSG-print.pdf?v=1736159635"
+                    }
+                ],
+                "dateAdded": 1776408338933,
+                "dateGroupModified": 1786301788268,
+                "id": "472",
+                "index": 7,
+                "parentId": "1",
+                "syncing": true,
+                "title": "MouseKeyword"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1770316970986,
+                        "dateLastUsed": 1771861835105,
+                        "id": "435",
+                        "index": 0,
+                        "parentId": "434",
+                        "syncing": true,
+                        "title": "AppleConnect Sign In",
+                        "url": "https://idmsac.apple.com/IDMSWebAuth/appleauth/auth/oauth2/v2/authorize?client_id=tcnq9zlvydwh6fwxmec7k9j9a78t9g&redirect_uri=https://account.appleconnect.apple.com/account/manage&scope=openid+api+device+offline_access+phone+extended_profile+groups&response_type=code&state=nogg1ejj7tds8pb107lau4b3d8"
+                    },
+                    {
+                        "dateAdded": 1770315483318,
+                        "dateLastUsed": 1771861832738,
+                        "id": "431",
+                        "index": 1,
+                        "parentId": "434",
+                        "syncing": true,
+                        "title": "IsaacLighthouse - Home Sharepoint",
+                        "url": "https://digitaltechedge.sharepoint.com/sites/IsaacLighthouse?e=1%3Ae0ee8bb6e4984ea8a86c97d38b11bbba"
+                    },
+                    {
+                        "dateAdded": 1771588713305,
+                        "dateLastUsed": 1771861828494,
+                        "id": "445",
+                        "index": 2,
+                        "parentId": "434",
+                        "syncing": true,
+                        "title": "IsaacLighthouse - Isaac Lighthouse - Project information - All Documents",
+                        "url": "https://digitaltechedge.sharepoint.com/sites/IsaacLighthouse/Isaac%20Lighthouse/Forms/AllItems.aspx?csf=1&web=1&e=pu8DRv&as=json&FolderCTID=0x012000AD92D12FC5740042BF6247154DE6C600&id=%2Fsites%2FIsaacLighthouse%2FIsaac%20Lighthouse%2FProject%20information"
+                    },
+                    {
+                        "dateAdded": 1771922215756,
+                        "id": "450",
+                        "index": 3,
+                        "parentId": "434",
+                        "syncing": true,
+                        "title": "LE & PR Guidliness Repo",
+                        "url": "https://digitaltechedge.sharepoint.com/sites/Ogma-CherryOpal/Shared%20Documents/Forms/AllItems.aspx?e=5%3Acb23b4af12364dc4ab7efffdd328d26b&sharingv2=true&fromShare=true&at=9&CID=a7d671ff%2De1eb%2D486d%2D9cbf%2Dd59b399c552b&FolderCTID=0x012000CE57533E049D3B4584CB017DB202E690&id=%2Fsites%2FOgma%2DCherryOpal%2FShared%20Documents%2FGuidelines%2FPR%20%26%20LE%20Guidelines"
+                    },
+                    {
+                        "dateAdded": 1771905156175,
+                        "id": "449",
+                        "index": 4,
+                        "parentId": "434",
+                        "syncing": true,
+                        "title": "LH3 - All Certifications Links Version 1",
+                        "url": "https://digitaltechedge.sharepoint.com/sites/IsaacLighthouse/Isaac%20Lighthouse/Forms/AllItems.aspx?id=%2Fsites%2FIsaacLighthouse%2FIsaac%20Lighthouse%2FProject%20information%2FGeneral%2FLighthouse%203%2E0%2FLH3%20%2D%20All%20Certifications%20Links%20Version%201%2Epdf&parent=%2Fsites%2FIsaacLighthouse%2FIsaac%20Lighthouse%2FProject%20information%2FGeneral%2FLighthouse%203%2E0"
+                    },
+                    {
+                        "dateAdded": 1771863864842,
+                        "id": "447",
+                        "index": 5,
+                        "parentId": "434",
+                        "syncing": true,
+                        "title": "Lighthouse 3.0 - Project Overview - Crowds",
+                        "url": "https://digitaltechedge.sharepoint.com/sites/IsaacLighthouse/Isaac%20Lighthouse/Forms/AllItems.aspx?id=%2Fsites%2FIsaacLighthouse%2FIsaac%20Lighthouse%2FProject%20information%2FGeneral%2FLighthouse%203%2E0%2FLighthouse%203%2E0%20%2D%20Project%20Overview%20%2D%20Crowds%2Epdf&parent=%2Fsites%2FIsaacLighthouse%2FIsaac%20Lighthouse%2FProject%20information%2FGeneral%2FLighthouse%203%2E0"
+                    },
+                    {
+                        "dateAdded": 1771257044224,
+                        "dateLastUsed": 1771861832877,
+                        "id": "440",
+                        "index": 6,
+                        "parentId": "434",
+                        "syncing": true,
+                        "title": "My View - Global Query",
+                        "url": "https://globalquery.oneforma.com/my_view_page.php?refresh=true"
+                    }
+                ],
+                "dateAdded": 1770315520321,
+                "dateGroupModified": 1786301788273,
+                "id": "434",
+                "index": 8,
+                "parentId": "1",
+                "syncing": true,
+                "title": "OneForma"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1762235927249,
+                        "id": "287",
+                        "index": 0,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "",
+                        "url": "https://openmrs.atlassian.net/wiki/spaces/docs/pages/25475961/Set+Up+Development+Environment+Backend"
+                    },
+                    {
+                        "dateAdded": 1762542623259,
+                        "dateLastUsed": 1762588735761,
+                        "id": "298",
+                        "index": 1,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "[TRUNK-5833] ConceptDescription Domain - Switching from Hibernate Mappings to Annotations - OpenMRS Issues",
+                        "url": "https://openmrs.atlassian.net/browse/TRUNK-5833"
+                    },
+                    {
+                        "dateAdded": 1762082935043,
+                        "dateLastUsed": 1768759977785,
+                        "id": "277",
+                        "index": 2,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Administration",
+                        "url": "https://dev3.openmrs.org/openmrs/admin/index.htm"
+                    },
+                    {
+                        "dateAdded": 1774898388080,
+                        "id": "466",
+                        "index": 3,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Arise Registration",
+                        "url": "https://register.arise.com/opportunity/1c8457b8-731d-f111-b92a-005056ba57d9/enrollment-prerequisites/ceab4aa6-692c-f111-b8cd-005056ba49f8"
+                    },
+                    {
+                        "dateAdded": 1762237679042,
+                        "dateLastUsed": 1768759941666,
+                        "id": "290",
+                        "index": 4,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Atlassian Home",
+                        "url": "https://home.atlassian.com/o/fb774304-cf17-46e4-a523-93df1756665f/apps?cloudId=1fc7c3fe-ab39-46a8-8f76-6410d1ed4493"
+                    },
+                    {
+                        "dateAdded": 1762239362717,
+                        "id": "291",
+                        "index": 5,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Default dashboard - OpenMRS Issues",
+                        "url": "https://openmrs.atlassian.net/jira/dashboards/10000"
+                    },
+                    {
+                        "dateAdded": 1762529007265,
+                        "id": "293",
+                        "index": 6,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Dynamic Software Engineer with a proven track record at HCL Tech, where I developed secure interfaces and enhanced system applications. Expert in Java Spring boot, JSP and ReactJS, I excel in collaboration and problem-solving, significantly improving - A4",
+                        "url": "https://www.canva.com/design/DAGlQpH_pFk/tQd-_lsHU2Ou5acW33qJeg/edit"
+                    },
+                    {
+                        "dateAdded": 1759576936886,
+                        "dateLastUsed": 1762098515619,
+                        "id": "247",
+                        "index": 7,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Intro to 03 Dev",
+                        "url": "https://openmrs.atlassian.net/wiki/spaces/docs/pages/151093495/Introduction+to+O3+for+Developers"
+                    },
+                    {
+                        "dateAdded": 1765300806420,
+                        "id": "372",
+                        "index": 8,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Issues - openmrs-core in sudhanshu SonarQube Cloud",
+                        "url": "https://sonarcloud.io/project/issues?impactSeverities=HIGH&issueStatuses=OPEN%2CCONFIRMED&id=sudhanshu-raj_openmrs-core&open=AZsBs5vEOHUXk6syksxt&tab=why"
+                    },
+                    {
+                        "dateAdded": 1765276926200,
+                        "id": "371",
+                        "index": 9,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Issues - openmrs-core in sudhanshu SonarQube Cloud",
+                        "url": "https://sonarcloud.io/project/issues?impactSeverities=MEDIUM&issueStatuses=OPEN%2CCONFIRMED&id=sudhanshu-raj_openmrs-core&open=AZsBs5l3OHUXk6syksuU&tab=why"
+                    },
+                    {
+                        "dateAdded": 1775728534657,
+                        "id": "468",
+                        "index": 10,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Latest Implementing/Job Board topics - OpenMRS Talk",
+                        "url": "https://talk.openmrs.org/c/implementing/job-board/19"
+                    },
+                    {
+                        "dateAdded": 1762088847213,
+                        "id": "281",
+                        "index": 11,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Log in to continue - Log in with Atlassian account",
+                        "url": "https://id.atlassian.com/login"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "dateAdded": 1762529680101,
+                                "dateGroupModified": 1762529680101,
+                                "id": "296",
+                                "index": 0,
+                                "parentId": "295",
+                                "syncing": true,
+                                "title": "New folder"
+                            }
+                        ],
+                        "dateAdded": 1762529680101,
+                        "dateGroupModified": 1762529680101,
+                        "id": "295",
+                        "index": 12,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "New folder"
+                    },
+                    {
+                        "dateAdded": 1761995094587,
+                        "dateLastUsed": 1762512373920,
+                        "id": "271",
+                        "index": 13,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "OpenMRS Community - Documentation - OpenMRS Wiki",
+                        "url": "https://openmrs.atlassian.net/wiki/spaces/docs/pages/26258573/OpenMRS+Community"
+                    },
+                    {
+                        "dateAdded": 1763572078316,
+                        "id": "318",
+                        "index": 14,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "OpenMRS Core",
+                        "url": "https://github.com/sudhanshu-raj/openmrs-core"
+                    },
+                    {
+                        "dateAdded": 1762083141456,
+                        "id": "278",
+                        "index": 15,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "OpenMRS Core FHIR Implementation ",
+                        "url": "https://fhir.openmrs.org/"
+                    },
+                    {
+                        "dateAdded": 1762094123815,
+                        "id": "284",
+                        "index": 16,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "OpenMRS DEV ADMIN",
+                        "url": "https://dev3.openmrs.org/openmrs/spa/home/service-queues"
+                    },
+                    {
+                        "dateAdded": 1762075885492,
+                        "dateLastUsed": 1766214975068,
+                        "id": "276",
+                        "index": 17,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "OpenMRS Developer Course",
+                        "url": "https://openmrs.org/academy/intro-to-openmrs-3/"
+                    },
+                    {
+                        "dateAdded": 1775728543697,
+                        "id": "469",
+                        "index": 18,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "OpenMRS Fellowship Program - Resources - OpenMRS Wiki",
+                        "url": "https://openmrs.atlassian.net/wiki/spaces/RES/pages/26274503/OpenMRS+Fellowship+Program"
+                    },
+                    {
+                        "dateAdded": 1762087856477,
+                        "id": "279",
+                        "index": 19,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "OpenMRS ID Account Management",
+                        "url": "https://id-new.openmrs.org/realms/openmrs/account/#/"
+                    },
+                    {
+                        "dateAdded": 1762236698878,
+                        "id": "289",
+                        "index": 20,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "OpenMRS Jira",
+                        "url": "https://openmrs.atlassian.net/jira/projects?page=1&sortKey=name&sortOrder=ASC&types=software%2Cbusiness"
+                    },
+                    {
+                        "dateAdded": 1768992502612,
+                        "id": "420",
+                        "index": 21,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "OpenMRS Talk",
+                        "url": "https://talk.openmrs.org/"
+                    },
+                    {
+                        "dateAdded": 1762091748320,
+                        "dateLastUsed": 1762433726231,
+                        "id": "283",
+                        "index": 22,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "OpenMRS Talk",
+                        "url": "https://talk.openmrs.org/top?period=monthly"
+                    },
+                    {
+                        "dateAdded": 1764782932093,
+                        "dateLastUsed": 1768759946533,
+                        "id": "352",
+                        "index": 23,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Prerequisite Knowledge - Documentation - OpenMRS Wiki",
+                        "url": "https://openmrs.atlassian.net/wiki/spaces/docs/pages/150929725/Prerequisite+Knowledge"
+                    },
+                    {
+                        "dateAdded": 1784190656740,
+                        "dateLastUsed": 1786523672727,
+                        "id": "515",
+                        "index": 24,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Projects | Handshake AI",
+                        "url": "https://ai.joinhandshake.com/fellow/projects"
+                    },
+                    {
+                        "dateAdded": 1762597844016,
+                        "id": "302",
+                        "index": 25,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Pull Request Tips - Documentation - OpenMRS Wiki",
+                        "url": "https://openmrs.atlassian.net/wiki/spaces/docs/pages/25477199/Pull+Request+Tips"
+                    },
+                    {
+                        "dateAdded": 1762098242599,
+                        "dateLastUsed": 1762236121786,
+                        "id": "285",
+                        "index": 26,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "REST API DOCS",
+                        "url": "https://rest.openmrs.org/?javascript#retrieve-session-token"
+                    },
+                    {
+                        "dateAdded": 1784190612066,
+                        "dateLastUsed": 1786523613783,
+                        "id": "514",
+                        "index": 27,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Shipd",
+                        "url": "https://shipd.ai/home"
+                    },
+                    {
+                        "dateAdded": 1774200333075,
+                        "id": "464",
+                        "index": 28,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "SobieskiCodes/RDPWrap: RDPwrap + win10 privacy",
+                        "url": "https://github.com/SobieskiCodes/RDPWrap"
+                    },
+                    {
+                        "dateAdded": 1761995745982,
+                        "dateLastUsed": 1780308425581,
+                        "id": "272",
+                        "index": 29,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Starting Developer Guide",
+                        "url": "https://openmrs.atlassian.net/wiki/spaces/docs/pages/25477022/Getting+Started+as+a+Developer#Join-the-OpenMRS-community"
+                    },
+                    {
+                        "dateAdded": 1773765848610,
+                        "id": "462",
+                        "index": 30,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Summary - Audit Log Web - OpenMRS Issues",
+                        "url": "https://openmrs.atlassian.net/jira/software/c/projects/AUDIT/summary"
+                    },
+                    {
+                        "dateAdded": 1771403940192,
+                        "id": "442",
+                        "index": 31,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Summer of Code 2026 - Resources - OpenMRS Wiki",
+                        "url": "https://openmrs.atlassian.net/wiki/spaces/RES/pages/752844801/Summer+of+Code+2026"
+                    },
+                    {
+                        "dateAdded": 1765038528399,
+                        "id": "365",
+                        "index": 32,
+                        "parentId": "270",
+                        "syncing": true,
+                        "title": "Welcome to the documentation for cBioPortal!",
+                        "url": "https://docs.cbioportal.org/"
+                    }
+                ],
+                "dateAdded": 1761990192561,
+                "dateGroupModified": 1786301788314,
+                "id": "270",
+                "index": 9,
+                "parentId": "1",
+                "syncing": true,
+                "title": "OpenMRS"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1770106020707,
+                        "id": "429",
+                        "index": 0,
+                        "parentId": "427",
+                        "syncing": true,
+                        "title": "editor",
+                        "url": "https://docs.google.com/document/d/1SIEF4kCkIJ7x2wePndjqOjMUg-btjWZSNu7hkTf87fs/preview?tab=t.0"
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [],
+                                "dateAdded": 1770315520321,
+                                "dateGroupModified": 1770315520321,
+                                "id": "433",
+                                "index": 0,
+                                "parentId": "432",
+                                "syncing": true,
+                                "title": "New folder"
+                            }
+                        ],
+                        "dateAdded": 1770315520321,
+                        "dateGroupModified": 1770315520321,
+                        "id": "432",
+                        "index": 1,
+                        "parentId": "427",
+                        "syncing": true,
+                        "title": "New folder"
+                    },
+                    {
+                        "dateAdded": 1770027247135,
+                        "id": "426",
+                        "index": 2,
+                        "parentId": "427",
+                        "syncing": true,
+                        "title": "Transcribe",
+                        "url": "https://transcribe-editor.vercel.app/dashboard"
+                    }
+                ],
+                "dateAdded": 1770027276819,
+                "dateGroupModified": 1786301788274,
+                "id": "427",
+                "index": 10,
+                "parentId": "1",
+                "syncing": true,
+                "title": "remotte_ai_portal"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1772821027712,
+                        "dateLastUsed": 1773229354046,
+                        "id": "460",
+                        "index": 0,
+                        "parentId": "453",
+                        "syncing": true,
+                        "title": "2 BHK / Bedroom Apartment / Flat for rent in Arsha Madhav Greens Gomti Nagar Extension Lucknow - 1600 Sq. Ft.- 1st floor (out of 1)",
+                        "url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-rent-in-arsha-madhav-greens-gomti-nagar-extension-lucknow-1600-sq-ft-r3-spid-Q76352845"
+                    },
+                    {
+                        "dateAdded": 1772819026461,
+                        "dateLastUsed": 1773229279441,
+                        "id": "456",
+                        "index": 1,
+                        "parentId": "453",
+                        "syncing": true,
+                        "title": "2 BHK / Bedroom Apartment / Flat for rent in Hariharpur Lucknow - 800 Sq. Ft.- 1st floor (out of 1)",
+                        "url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-rent-in-hariharpur-lucknow-800-sq-ft-spid-H89302235"
+                    },
+                    {
+                        "dateAdded": 1772820863087,
+                        "dateLastUsed": 1773229360233,
+                        "id": "458",
+                        "index": 2,
+                        "parentId": "453",
+                        "syncing": true,
+                        "title": "2 BHK / Bedroom Apartment / Flat for rent in Omaxe City Bijnor Lucknow - 1500 Sq. Ft.- Ground floor (out of 4)",
+                        "url": "https://www.99acres.com/2-bhk-bedroom-apartment-flat-for-rent-in-omaxe-city-bijnor-lucknow-1500-sq-ft-spid-V89342611"
+                    },
+                    {
+                        "dateAdded": 1772818545318,
+                        "dateLastUsed": 1773229326345,
+                        "id": "452",
+                        "index": 3,
+                        "parentId": "453",
+                        "syncing": true,
+                        "title": "2 BHK / Bedroom House / Villa for rent in Bakkas Lucknow - 1200 Sq. Ft.",
+                        "url": "https://www.99acres.com/2-bhk-bedroom-independent-house-villa-for-rent-in-bakkas-lucknow-1200-sq-ft-spid-F89140259"
+                    },
+                    {
+                        "dateAdded": 1772818927540,
+                        "dateLastUsed": 1773229310150,
+                        "id": "455",
+                        "index": 4,
+                        "parentId": "453",
+                        "syncing": true,
+                        "title": "2 BHK / Bedroom House / Villa for rent in Hariharpur Lucknow - 1600 Sq. Ft.",
+                        "url": "https://www.99acres.com/2-bhk-bedroom-independent-house-villa-for-rent-in-hariharpur-lucknow-1600-sq-ft-spid-V87822750"
+                    },
+                    {
+                        "dateAdded": 1772820931280,
+                        "dateLastUsed": 1773229357937,
+                        "id": "459",
+                        "index": 5,
+                        "parentId": "453",
+                        "syncing": true,
+                        "title": "2 BHK / Bedroom House / Villa for rent in Neelendras Amity Greens Gomti Nagar Extension Lucknow - 1500 Sq. Ft.",
+                        "url": "https://www.99acres.com/2-bhk-bedroom-independent-house-villa-for-rent-in-neelendras-amity-greens-gomti-nagar-extension-lucknow-1500-sq-ft-spid-N87616814"
+                    },
+                    {
+                        "dateAdded": 1772818655838,
+                        "dateLastUsed": 1773229318382,
+                        "id": "454",
+                        "index": 6,
+                        "parentId": "453",
+                        "syncing": true,
+                        "title": "2 BHK / Bedroom House / Villa for rent in Raebareli Road Lucknow - 600 Sq. Ft.",
+                        "url": "https://www.99acres.com/2-bhk-bedroom-independent-house-villa-for-rent-in-raebareli-road-lucknow-600-sq-ft-r2-spid-A84040492"
+                    },
+                    {
+                        "dateAdded": 1772819108395,
+                        "dateLastUsed": 1773229363083,
+                        "id": "457",
+                        "index": 7,
+                        "parentId": "453",
+                        "syncing": true,
+                        "title": "2 BHK / Bedroom House / Villa for rent in Sushant Golf City Lucknow - 500 Sq. Ft.",
+                        "url": "https://www.99acres.com/2-bhk-bedroom-independent-house-villa-for-rent-in-sushant-golf-city-lucknow-500-sq-ft-spid-U89343587"
+                    }
+                ],
+                "dateAdded": 1772818569102,
+                "dateGroupModified": 1786301788271,
+                "id": "453",
+                "index": 11,
+                "parentId": "1",
+                "syncing": true,
+                "title": "rooms"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1784867146019,
+                        "id": "523",
+                        "index": 0,
+                        "parentId": "518",
+                        "syncing": true,
+                        "title": "Alignerr | Powered by Labelbox",
+                        "url": "https://app.alignerr.com/home"
+                    },
+                    {
+                        "dateAdded": 1784581264928,
+                        "id": "519",
+                        "index": 1,
+                        "parentId": "518",
+                        "syncing": true,
+                        "title": "Cineby",
+                        "url": "https://www.cineby.at/"
+                    },
+                    {
+                        "dateAdded": 1784581293390,
+                        "id": "520",
+                        "index": 2,
+                        "parentId": "518",
+                        "syncing": true,
+                        "title": "Cineplay",
+                        "url": "https://www.cineplay.to/"
+                    },
+                    {
+                        "dateAdded": 1785270850049,
+                        "id": "543",
+                        "index": 3,
+                        "parentId": "518",
+                        "syncing": true,
+                        "title": "Coreflix | Stream Movies & TV Shows Online",
+                        "url": "https://coreflix.tv/"
+                    },
+                    {
+                        "dateAdded": 1784581222775,
+                        "id": "517",
+                        "index": 4,
+                        "parentId": "518",
+                        "syncing": true,
+                        "title": "Coreflix | Stream Movies & TV Shows Online",
+                        "url": "https://coreflix.tv/watch/movie/1278"
+                    },
+                    {
+                        "dateAdded": 1786301676588,
+                        "id": "551",
+                        "index": 5,
+                        "parentId": "518",
+                        "syncing": true,
+                        "title": "Processes and Threads — PlanetScale",
+                        "url": "https://planetscale.com/blog/processes-and-threads"
+                    },
+                    {
+                        "dateAdded": 1786220297300,
+                        "id": "549",
+                        "index": 6,
+                        "parentId": "518",
+                        "syncing": true,
+                        "title": "Rive | Watch | The Dreamers",
+                        "url": "https://www.rivestream.app/watch?type=movie&id=1278"
+                    }
+                ],
+                "dateAdded": 1784581237975,
+                "dateGroupModified": 1786301788267,
+                "id": "518",
+                "index": 12,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Streaming Sites"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1764965479101,
+                        "id": "362",
+                        "index": 0,
+                        "parentId": "360",
+                        "syncing": true,
+                        "title": "AfterQuery Experts - Transform the Future of Technology",
+                        "url": "https://experts.afterquery.com/onboarding"
+                    },
+                    {
+                        "dateAdded": 1764937459892,
+                        "id": "358",
+                        "index": 1,
+                        "parentId": "360",
+                        "syncing": true,
+                        "title": "Quastor | Sytem Design",
+                        "url": "https://blog.quastor.org/"
+                    }
+                ],
+                "dateAdded": 1764940571588,
+                "dateGroupModified": 1785653633394,
+                "id": "360",
+                "index": 13,
+                "parentId": "1",
+                "syncing": true,
+                "title": "System Design"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1766338676665,
+                        "id": "391",
+                        "index": 0,
+                        "parentId": "368",
+                        "syncing": true,
+                        "title": "💬 32 - 💬 32 - Chat | WaliChat",
+                        "url": "https://app.wali.chat/campaigns/6947e0ef611fd3ce0953140f"
+                    },
+                    {
+                        "dateAdded": 1765983500662,
+                        "id": "387",
+                        "index": 1,
+                        "parentId": "368",
+                        "syncing": true,
+                        "title": "Blockchain Security, Smart Contract Audits, Developer Education - Cyfrin",
+                        "url": "https://www.cyfrin.io/"
+                    },
+                    {
+                        "dateAdded": 1765120600641,
+                        "id": "367",
+                        "index": 2,
+                        "parentId": "368",
+                        "syncing": true,
+                        "title": "ChainList",
+                        "url": "https://chainlist.org/?search=Amoy&testnets=true"
+                    },
+                    {
+                        "dateAdded": 1765360557076,
+                        "id": "375",
+                        "index": 3,
+                        "parentId": "368",
+                        "syncing": true,
+                        "title": "HackQuest Quest - HackQuest",
+                        "url": "https://www.hackquest.io/quest"
+                    },
+                    {
+                        "dateAdded": 1766077545719,
+                        "id": "389",
+                        "index": 4,
+                        "parentId": "368",
+                        "syncing": true,
+                        "title": "Hey this is working",
+                        "url": "https://blank.page/"
+                    },
+                    {
+                        "dateAdded": 1765358095563,
+                        "id": "374",
+                        "index": 5,
+                        "parentId": "368",
+                        "syncing": true,
+                        "title": "My Progress - HackQuest",
+                        "url": "https://www.hackquest.io/home"
+                    },
+                    {
+                        "dateAdded": 1765120628081,
+                        "id": "369",
+                        "index": 6,
+                        "parentId": "368",
+                        "syncing": true,
+                        "title": "TESTNET Polygon PoS Chain Amoy (POL) Blockchain Explorer",
+                        "url": "https://amoy.polygonscan.com/"
+                    },
+                    {
+                        "dateAdded": 1765360562292,
+                        "id": "376",
+                        "index": 7,
+                        "parentId": "368",
+                        "syncing": true,
+                        "title": "Welcome Thread - v355 - DEV Community",
+                        "url": "https://dev.to/welcome"
+                    }
+                ],
+                "dateAdded": 1765120624169,
+                "dateGroupModified": 1786301788278,
+                "id": "368",
+                "index": 14,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Web3 & Blockchain"
+            },
+            {
+                "dateAdded": 1770792411250,
+                "id": "437",
+                "index": 15,
+                "parentId": "1",
+                "syncing": true,
+                "title": "",
+                "url": "chrome://newtab/"
+            },
+            {
+                "dateAdded": 1729533259674,
+                "id": "160",
+                "index": 16,
+                "parentId": "1",
+                "syncing": true,
+                "title": " Brevo email",
+                "url": "https://app-smtp.brevo.com/real-time#8b12df8b-8aef-4320-80b6-3b3ef24a7283"
+            },
+            {
+                "dateAdded": 1735926961692,
+                "id": "176",
+                "index": 17,
+                "parentId": "1",
+                "syncing": true,
+                "title": " Uizard | WebDesign",
+                "url": "https://app.uizard.io/prototypes/g4VnOOgYvWTBv9Zvoozo"
+            },
+            {
+                "dateAdded": 1786729086115,
+                "id": "558",
+                "index": 18,
+                "parentId": "1",
+                "syncing": true,
+                "title": "(1) future/proof | DAN KOE | Substack",
+                "url": "https://letters.thedankoe.com/"
+            },
+            {
+                "dateAdded": 1750411929597,
+                "id": "220",
+                "index": 19,
+                "parentId": "1",
+                "syncing": true,
+                "title": "(1088) Jackie Shroff's FUNNY Polio Ad | BEHIND THE SCENES. - YouTube",
+                "url": "https://www.youtube.com/watch?v=cU5gEHCzCig&t=137s"
+            },
+            {
+                "dateAdded": 1711087790000,
+                "id": "135",
+                "index": 20,
+                "parentId": "1",
+                "syncing": true,
+                "title": "(2) New Messages!",
+                "url": "https://namso-gen.com/?tab=basic&network=Visa"
+            },
+            {
+                "dateAdded": 1711087750000,
+                "dateLastUsed": 1748033500670,
+                "id": "134",
+                "index": 21,
+                "parentId": "1",
+                "syncing": true,
+                "title": "(2) New Messages!",
+                "url": "https://namso-gen.com/?tab=basic&network=random"
+            },
+            {
+                "dateAdded": 1737903923299,
+                "id": "189",
+                "index": 22,
+                "parentId": "1",
+                "syncing": true,
+                "title": "(6779) Chhaava | Official Trailer | Vicky K | Rashmika M | Akshaye K | Dinesh Vijan | Laxman U | 14th Feb - YouTube",
+                "url": "https://www.youtube.com/watch?v=77vRyWNqZjM"
+            },
+            {
+                "dateAdded": 1724087891000,
+                "id": "146",
+                "index": 23,
+                "parentId": "1",
+                "syncing": true,
+                "title": "(7) #hacking - Search / X",
+                "url": "https://x.com/search?q=%23hacking&src=trend_click&vertical=trends"
+            },
+            {
+                "dateAdded": 1722776363000,
+                "id": "143",
+                "index": 24,
+                "parentId": "1",
+                "syncing": true,
+                "title": "(7) Inbox | duck2goxzx@proton.me | Proton Mail",
+                "url": "https://mail.proton.me/u/1/inbox?welcome=true"
+            },
+            {
+                "dateAdded": 1639483484000,
+                "id": "66",
+                "index": 25,
+                "parentId": "1",
+                "syncing": true,
+                "title": "[SOLVED] Convert 111111110010 from Binary to Hexadecimal",
+                "url": "https://www.mathwarehouse.com/solved-problems/conversions/convert-111111110010-from-binary-to-hexadecimal"
+            },
+            {
+                "dateAdded": 1642912314000,
+                "id": "58",
+                "index": 26,
+                "parentId": "1",
+                "syncing": true,
+                "title": "+c= prg ",
+                "url": "https://www.programiz.com/cpp-programming/library-function/cmath/ceil"
+            },
+            {
+                "dateAdded": 1750174903296,
+                "dateLastUsed": 1750271229567,
+                "id": "218",
+                "index": 27,
+                "parentId": "1",
+                "syncing": true,
+                "title": "🤖 Free Proxy List [1000+ IPs Online]",
+                "url": "https://geonode.com/free-proxy-list"
+            },
+            {
+                "dateAdded": 1650350378000,
+                "id": "89",
+                "index": 28,
+                "parentId": "1",
+                "syncing": true,
+                "title": "100 Top XML Multiple Choice Questions and Answers | Multiple Choice Questions and Answers pdf for beginners experienced",
+                "url": "http://mcqspdfs.blogspot.com/2013/08/100-top-xml-multiple-choice-questions.html"
+            },
+            {
+                "dateAdded": 1717049547000,
+                "id": "142",
+                "index": 29,
+                "parentId": "1",
+                "syncing": true,
+                "title": "11 Best Foods for Hair Growth | Hims",
+                "url": "https://www.hims.com/blog/what-to-eat-for-hair-growth-15-best-foods-to-try"
+            },
+            {
+                "dateAdded": 1738591824730,
+                "dateLastUsed": 1769099176876,
+                "id": "12",
+                "index": 30,
+                "parentId": "1",
+                "syncing": true,
+                "title": "1337x",
+                "url": "https://www.1337x.to/sort-search/silicon+valley+s04/size/desc/3/"
+            },
+            {
+                "dateAdded": 1662193190000,
+                "id": "97",
+                "index": 31,
+                "parentId": "1",
+                "syncing": true,
+                "title": "About ETL",
+                "url": "https://www.techrepublic.com/article/etl-tools/"
+            },
+            {
+                "dateAdded": 1662635021000,
+                "id": "102",
+                "index": 32,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Adobe Illustrator CC 2020 Free Download",
+                "url": "https://getintopc.com/softwares/graphic-design/adobe-illustrator-cc-2020-free-download-9309019/"
+            },
+            {
+                "dateAdded": 1759513466556,
+                "id": "245",
+                "index": 33,
+                "parentId": "1",
+                "syncing": true,
+                "title": "aether",
+                "url": "https://aether.mom/media/tmdb-movie-26422-the-pillow-book"
+            },
+            {
+                "dateAdded": 1750454888504,
+                "dateLastUsed": 1750670253033,
+                "id": "222",
+                "index": 34,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Affiliate Programs Search | Skimlinks",
+                "url": "https://merchant.skimlinks.com/network/affiliate-programs-search?page=1"
+            },
+            {
+                "dateAdded": 1786525537544,
+                "id": "555",
+                "index": 35,
+                "parentId": "1",
+                "syncing": true,
+                "title": "AfterQuery Experts - Transform the Future of Technology",
+                "url": "https://experts.afterquery.com/projects/gold/instructions"
+            },
+            {
+                "dateAdded": 1753960984378,
+                "id": "237",
+                "index": 36,
+                "parentId": "1",
+                "syncing": true,
+                "title": "AI Image Editor - Pixelcut",
+                "url": "https://www.pixelcut.ai/ai-image-editor?tool=removeBackground"
+            },
+            {
+                "dateAdded": 1737631794873,
+                "id": "187",
+                "index": 37,
+                "parentId": "1",
+                "syncing": true,
+                "title": "AI Voice Generator & Text to Speech | ElevenLabs",
+                "url": "https://elevenlabs.io/app/speech-synthesis/text-to-speech"
+            },
+            {
+                "dateAdded": 1785141997255,
+                "dateLastUsed": 1787216632281,
+                "id": "541",
+                "index": 38,
+                "parentId": "1",
+                "syncing": true,
+                "title": "All Notes",
+                "url": "https://drive.google.com/file/d/1lbM6DksojZ41szS7o4azXpub5Nxm7Rd6/view"
+            },
+            {
+                "dateAdded": 1751569855919,
+                "id": "232",
+                "index": 39,
+                "parentId": "1",
+                "syncing": true,
+                "title": "All-in-One Data Scraper for all Targets - Free Trial",
+                "url": "https://decodo.com/scraping"
+            },
+            {
+                "dateAdded": 1732176262774,
+                "id": "166",
+                "index": 40,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Amazon-Unavailable",
+                "url": "https://www.amazon.in/Alfa-AWUS036NH-Wireless-Network-Adapter/dp/B003YIFHJY"
+            },
+            {
+                "dateAdded": 1672126575000,
+                "dateLastUsed": 1764705430809,
+                "id": "4",
+                "index": 41,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Amity Online ",
+                "url": "https://amityonline.com/"
+            },
+            {
+                "dateAdded": 1671551620000,
+                "dateLastUsed": 1740475582864,
+                "id": "37",
+                "index": 42,
+                "parentId": "1",
+                "syncing": true,
+                "title": "AMTBS",
+                "url": "https://automatetheboringstuff.com/2e/chapter1/"
+            },
+            {
+                "dateAdded": 1734100413548,
+                "dateLastUsed": 1734179755816,
+                "id": "170",
+                "index": 43,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Android Basics with Compose  |  Building App UI  |  Android Developers",
+                "url": "https://developer.android.com/courses/android-basics-compose/unit-2"
+            },
+            {
+                "dateAdded": 1749584545450,
+                "id": "216",
+                "index": 44,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Android Basics with Compose course  |  Android Developers",
+                "url": "https://developer.android.com/courses/android-basics-compose/course"
+            },
+            {
+                "dateAdded": 1700880819000,
+                "id": "122",
+                "index": 45,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Automate the Boring Stuff with Python",
+                "url": "https://automatetheboringstuff.com/"
+            },
+            {
+                "dateAdded": 1780392372650,
+                "dateLastUsed": 1786784100985,
+                "id": "495",
+                "index": 46,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Baeldung | Spring",
+                "url": "https://www.baeldung.com/spring-events"
+            },
+            {
+                "dateAdded": 1733502418179,
+                "dateLastUsed": 1748033520132,
+                "id": "169",
+                "index": 47,
+                "parentId": "1",
+                "syncing": true,
+                "title": "BhojpuriPink Com PPTTRRJJVVVVPP11 (movieinfer.wapkiz.mobi).mp4",
+                "url": "http://wk.jdi5.com/filedownload/G8cEsvIWYd15Q_s_NGsJ4hTXv6uLeaIHEt6NytzcNU50fZqssdX14Taai1ZPrK3ZEtPw6pp_p_yZjLHIv4QIhta5uHrNTA_p_ZcVvz0s6AYh1raLbWM0vCO1uHA62NvnpoLTgdj3f_s_jAuxcHlzBgZ1NFtO_p_wGEj1UaLpSbptE/BhojpuriPink-Com-PPTTRRJJVVVVPP11-(movieinfer.wapkiz.mobi).mp4.html"
+            },
+            {
+                "dateAdded": 1682857367000,
+                "id": "112",
+                "index": 48,
+                "parentId": "1",
+                "syncing": true,
+                "title": "binary_cal",
+                "url": "https://binary2hex.com/numberconverter.html?id=1933"
+            },
+            {
+                "dateAdded": 1786301688819,
+                "dateLastUsed": 1787226341416,
+                "id": "552",
+                "index": 49,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Blog — PlanetScale",
+                "url": "https://planetscale.com/blog"
+            },
+            {
+                "dateAdded": 1638631563000,
+                "id": "64",
+                "index": 50,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Brokking.net - Project YMFC-AL - The Arduino auto-level quadcopter - Home.",
+                "url": "http://www.brokking.net/ymfc-al_main.html"
+            },
+            {
+                "dateAdded": 1742193717512,
+                "id": "204",
+                "index": 51,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Build your own BitTorrent | CodeCrafters",
+                "url": "https://app.codecrafters.io/courses/bittorrent/stages/ah1?repo=d8f748d6-cc2e-4aa3-bacf-f6e1dfae3ae7"
+            },
+            {
+                "dateAdded": 1692967101000,
+                "id": "118",
+                "index": 52,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Buy HIGHLANDER Slim Fit Tartan Checks Checked Casual Shirt - Shirts for Men 21769418 | Myntra",
+                "url": "https://www.myntra.com/shirts/highlander/highlander-slim-fit-tartan-checks-checked-casual-shirt/21769418/buy"
+            },
+            {
+                "dateAdded": 1749931938575,
+                "id": "217",
+                "index": 53,
+                "parentId": "1",
+                "syncing": true,
+                "title": "buzzlyn | datadog | dashboard",
+                "url": "https://us5.datadoghq.com/dash/host/653216576?fromUser=false&refresh_mode=sliding&from_ts=1749931630456&to_ts=1749931930456&live=true"
+            },
+            {
+                "dateAdded": 1681613794000,
+                "id": "111",
+                "index": 54,
+                "parentId": "1",
+                "syncing": true,
+                "title": "C MCQ Questions and Answers on Structures and Pointers 1 | ExamTray",
+                "url": "https://www.examtray.com/c-questions/c-mcq-questions-and-answers-structures-and-pointers-1"
+            },
+            {
+                "dateAdded": 1669201683000,
+                "id": "32",
+                "index": 55,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Canva",
+                "url": "https://www.canva.com/"
+            },
+            {
+                "dateAdded": 1650349817000,
+                "id": "88",
+                "index": 56,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Causes, Effects and Solution of Depletion of Natural Resources - Conserve Energy Future",
+                "url": "https://www.conserve-energy-future.com/causes-effects-solutions-depletion-natural-resources.php#:~:text=What%20is%20the%20Depletion%20of,be%20renewable%20or%20non%2Drenewable."
+            },
+            {
+                "dateAdded": 1765654090075,
+                "id": "383",
+                "index": 57,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Cerebras Cloud",
+                "url": "https://cloud.cerebras.ai/platform/org_xyvykv65tke5tktjyn334jpx/playground?model=llama-3.3-70b&maxTokens=2048&streaming=true&topP=1&temperature=0.2&reasoningEffort=MEDIUM"
+            },
+            {
+                "dateAdded": 1736424360605,
+                "id": "181",
+                "index": 58,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Chapter 8. VBoxManage",
+                "url": "https://www.virtualbox.org/manual/ch08.html"
+            },
+            {
+                "dateAdded": 1673159831000,
+                "dateLastUsed": 1784580959973,
+                "id": "6",
+                "index": 59,
+                "parentId": "1",
+                "syncing": true,
+                "title": "chatGPT",
+                "url": "https://chat.openai.com/chat?__cf_chl_rt_tk=1nI2FO5loySuQmFdx.vGjGihXfAPVanlHMzUfXzm.PQ-1673100506-0-gaNycGzNE6U"
+            },
+            {
+                "dateAdded": 1751985617024,
+                "id": "233",
+                "index": 60,
+                "parentId": "1",
+                "syncing": true,
+                "title": "ChatGPT",
+                "url": "https://chatgpt.com/c/686d2d61-4c7c-8007-a57e-9c97b9db8850"
+            },
+            {
+                "dateAdded": 1661920693000,
+                "id": "96",
+                "index": 61,
+                "parentId": "1",
+                "syncing": true,
+                "title": "CHROME EXTENSION HOW IT WORKS",
+                "url": "https://www.useblackbox.io/feature-copy"
+            },
+            {
+                "dateAdded": 1756447230890,
+                "id": "239",
+                "index": 62,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Chuck_CG",
+                "url": "https://chuckcg.gumroad.com/"
+            },
+            {
+                "dateAdded": 1759516179733,
+                "dateLastUsed": 1760547261495,
+                "id": "246",
+                "index": 63,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Cinemaos",
+                "url": "https://cinemaos.live/movie/watch/292431"
+            },
+            {
+                "dateAdded": 1682585980000,
+                "id": "44",
+                "index": 64,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Cisco Skills For All",
+                "url": "https://skillsforall.com/launch?id=e353d5ab-5ec2-4fb9-9d9d-e3a7cc673a46&tab=curriculum&view=893d043b-7382-5cef-afe1-fe11a6858ecb"
+            },
+            {
+                "dateAdded": 1702375129000,
+                "id": "129",
+                "index": 65,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Cleanup.pictures - Remove objects, people, text and defects from any picture for free",
+                "url": "https://cleanup.pictures/"
+            },
+            {
+                "dateAdded": 1769763805024,
+                "id": "424",
+                "index": 66,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Console Home | Console Home | ap-south-1",
+                "url": "https://ap-south-1.console.aws.amazon.com/console/home?region=ap-south-1"
+            },
+            {
+                "dateAdded": 1683951149000,
+                "id": "113",
+                "index": 67,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Contest | GFG Weekly Coding Contest - 102",
+                "url": "https://practice.geeksforgeeks.org/contest/gfg-weekly-coding-contest-102"
+            },
+            {
+                "dateAdded": 1683951157000,
+                "id": "43",
+                "index": 68,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Contest Geeks",
+                "url": "https://practice.geeksforgeeks.org/events"
+            },
+            {
+                "dateAdded": 1752821047597,
+                "id": "234",
+                "index": 69,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Convert SVG to React Native JSX - SVG Viewer",
+                "url": "https://www.svgviewer.dev/svg-to-react-native-jsx"
+            },
+            {
+                "dateAdded": 1776979393081,
+                "id": "478",
+                "index": 70,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Coolors - The super fast color palettes generator!",
+                "url": "https://coolors.co/"
+            },
+            {
+                "dateAdded": 1701343971000,
+                "id": "128",
+                "index": 71,
+                "parentId": "1",
+                "syncing": true,
+                "title": "cPanel - Email Accounts",
+                "url": "https://server167.web-hosting.com:2083/cpsess6118275931/frontend/jupiter/email_accounts/index.html?login=1&post_login=23121204138177#/list"
+            },
+            {
+                "dateAdded": 1739035938799,
+                "id": "195",
+                "index": 72,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Crawl4Ai Parameters",
+                "url": "https://docs.crawl4ai.com/api/parameters/"
+            },
+            {
+                "dateAdded": 1750455325812,
+                "dateLastUsed": 1750670266574,
+                "id": "223",
+                "index": 73,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Creative Overview",
+                "url": "https://console.partnerize.com/v2/admin/tracking"
+            },
+            {
+                "dateAdded": 1703152428000,
+                "id": "131",
+                "index": 74,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Dashboard",
+                "url": "https://amigo.amityonline.com/my/"
+            },
+            {
+                "dateAdded": 1736025316734,
+                "id": "178",
+                "index": 75,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Dashboard - Formula Bot",
+                "url": "https://app.formulabot.com/dashboard?menu=chats&chat=1736024540979x884098778466091000"
+            },
+            {
+                "dateAdded": 1748455490364,
+                "dateLastUsed": 1780153385207,
+                "id": "11",
+                "index": 76,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Datadog",
+                "url": "https://us5.datadoghq.com/infrastructure"
+            },
+            {
+                "dateAdded": 1662636418000,
+                "id": "103",
+                "index": 77,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Day 12 | WazirX NFT",
+                "url": "https://nft.wazirx.org/assets/0x23Cad0003e3A2b27b12359B25c25dD9a890AF8e1/52806"
+            },
+            {
+                "dateAdded": 1765724034362,
+                "id": "385",
+                "index": 78,
+                "parentId": "1",
+                "syncing": true,
+                "title": "debug Memes · ProgrammerHumor.io",
+                "url": "https://programmerhumor.io/memes/debug"
+            },
+            {
+                "dateAdded": 1737616357764,
+                "dateLastUsed": 1745165976153,
+                "id": "23",
+                "index": 79,
+                "parentId": "1",
+                "syncing": true,
+                "title": "DeepSeek ",
+                "url": "https://chat.deepseek.com/"
+            },
+            {
+                "dateAdded": 1780321598807,
+                "dateLastUsed": 1780850812159,
+                "id": "493",
+                "index": 80,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Defense Emojis | 🛡️⚔️🪖🔰 | Copy & Paste",
+                "url": "https://emojidb.org/defense-emojis"
+            },
+            {
+                "dateAdded": 1634744530000,
+                "id": "57",
+                "index": 81,
+                "parentId": "1",
+                "syncing": true,
+                "title": "DIY ARDUINO FLIGHT CONTROLLER : 12 Steps - Instructables",
+                "url": "https://www.instructables.com/DIY-ARDUINO-FLIGHT-CONTROLLER/"
+            },
+            {
+                "dateAdded": 1723355568000,
+                "id": "144",
+                "index": 82,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Dora - NoCode Design Platform",
+                "url": "https://www.dora.run/e/1223243?page=PxqdwmF7a"
+            },
+            {
+                "dateAdded": 1637642369000,
+                "id": "62",
+                "index": 83,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Drone Tech Planet – Discover the innovative world of Drones, breaking industry updates, news, products and trends that are driving the UAV industry. Share our knowledge!",
+                "url": "https://www.dronetechplanet.com/"
+            },
+            {
+                "dateAdded": 1710756254000,
+                "dateLastUsed": 1754893178383,
+                "id": "18",
+                "index": 84,
+                "parentId": "1",
+                "syncing": true,
+                "title": "DSA to Development",
+                "url": "https://www.geeksforgeeks.org/batch/dsa-to-dev-batch-2?tab=Chapters"
+            },
+            {
+                "dateAdded": 1695039384000,
+                "id": "121",
+                "index": 85,
+                "parentId": "1",
+                "syncing": true,
+                "title": "DURGA SOFTWARE SOLUTIONS",
+                "url": "http://www.durgasoft.com/scjp_material_2.asp?chapter=5&page=2"
+            },
+            {
+                "dateAdded": 1745230883095,
+                "id": "205",
+                "index": 86,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Dynamic Software Engineer with a proven track record at HCL Tech, where I developed secure interfaces and enhanced system applications. Expert in Java Spring boot, JSP and ReactJS, I excel in collaboration and problem-solving, significantly improving - A4",
+                "url": "https://www.canva.com/design/DAGlQpH_pFk/tQd-_lsHU2Ou5acW33qJeg/edit?referrer=resumes-landing-page"
+            },
+            {
+                "dateAdded": 1760093009502,
+                "id": "252",
+                "index": 87,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Easy Bookmark Viewer - Chrome Web Store",
+                "url": "https://chromewebstore.google.com/detail/easy-bookmark-viewer/kkmkdggemglpjggklplkaegegicplcei"
+            },
+            {
+                "dateAdded": 1777097151066,
+                "id": "480",
+                "index": 88,
+                "parentId": "1",
+                "syncing": true,
+                "title": "edclub",
+                "url": "https://www.edclub.com/sportal/program-3.game"
+            },
+            {
+                "dateAdded": 1643971926000,
+                "id": "75",
+                "index": 89,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Edit User and System Environment Variables in Windows | Tutorials",
+                "url": "https://www.tenforums.com/tutorials/121855-edit-user-system-environment-variables-windows.html"
+            },
+            {
+                "dateAdded": 1751276544288,
+                "id": "229",
+                "index": 90,
+                "parentId": "1",
+                "syncing": true,
+                "title": "EK Affliliators",
+                "url": "https://ek.affiliaters.in/developer/api-key"
+            },
+            {
+                "dateAdded": 1753984750185,
+                "id": "238",
+                "index": 91,
+                "parentId": "1",
+                "syncing": true,
+                "title": "ElevenLabs",
+                "url": "https://elevenlabs.io/app/home"
+            },
+            {
+                "dateAdded": 1737142630136,
+                "id": "185",
+                "index": 92,
+                "parentId": "1",
+                "syncing": true,
+                "title": "ESP32 PSRAM Timer Camera Fisheye (OV3660) | m5stack-store",
+                "url": "https://shop.m5stack.com/products/esp32-psram-timer-camera-fisheye-ov3660"
+            },
+            {
+                "dateAdded": 1716653854000,
+                "id": "139",
+                "index": 93,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Evaluate logarithms (advanced) (practice) | Khan Academy",
+                "url": "https://www.khanacademy.org/math/college-algebra/xa5dd2923c88e7aa8:logarithms/xa5dd2923c88e7aa8:introduction-to-logarithms/e/logarithms_1.5"
+            },
+            {
+                "dateAdded": 1756701781367,
+                "id": "240",
+                "index": 94,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Executive Health Checks – HCL-Healthcare",
+                "url": "https://www.healthyhcl.in/executive-health-checks/"
+            },
+            {
+                "dateAdded": 1739895134256,
+                "dateLastUsed": 1740933155667,
+                "id": "197",
+                "index": 95,
+                "parentId": "1",
+                "syncing": true,
+                "title": "FileCR - THE BIGGEST SOFTWARE STORE",
+                "url": "https://filecr.com/en/"
+            },
+            {
+                "dateAdded": 1750330743498,
+                "id": "219",
+                "index": 96,
+                "parentId": "1",
+                "syncing": true,
+                "title": "firstcontributions.github.io/#social-share",
+                "url": "https://firstcontributions.github.io/#social-share"
+            },
+            {
+                "dateAdded": 1747304968540,
+                "id": "211",
+                "index": 97,
+                "parentId": "1",
+                "syncing": true,
+                "title": "flat ui color picker",
+                "url": "https://flatuicolors.com/palette/in"
+            },
+            {
+                "dateAdded": 1643336759000,
+                "id": "72",
+                "index": 98,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Flip Flops - Digital Circuits Questions and Answers - Sanfoundry",
+                "url": "https://www.sanfoundry.com/digital-circuits-questions-answers-flip-flops-1/#:~:text=Whose%20operations%20are%20more%20faster%20among%20the%20following%3F&text=Explanation%3A%20Combinational%20circuits%20are%20often,perform%20their%20operations%20in%20sequence."
+            },
+            {
+                "dateAdded": 1732176276359,
+                "id": "167",
+                "index": 99,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Flipkart-Unavailable",
+                "url": "https://www.flipkart.com/alfa-awus036nh-9dbi-mount-antenna-amplifier/p/itmd9790e5cd3f4e"
+            },
+            {
+                "dateAdded": 1728109951631,
+                "dateLastUsed": 1732642351977,
+                "id": "29",
+                "index": 100,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Flux dev x",
+                "url": "https://tensor.art/template/759621900652588044"
+            },
+            {
+                "dateAdded": 1728297408100,
+                "dateLastUsed": 1748033510818,
+                "id": "158",
+                "index": 101,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Free AI Art Generator: Create AI Art from Text - SeaArt AI",
+                "url": "https://www.seaart.ai/"
+            },
+            {
+                "dateAdded": 1732717962606,
+                "dateLastUsed": 1784581153962,
+                "id": "10",
+                "index": 102,
+                "parentId": "1",
+                "syncing": true,
+                "title": "free stuff on  internet",
+                "url": "https://fmhy.net/"
+            },
+            {
+                "dateAdded": 1701156601000,
+                "id": "125",
+                "index": 103,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Gamma",
+                "url": "https://gamma.app/generate"
+            },
+            {
+                "dateAdded": 1700475671000,
+                "id": "38",
+                "index": 104,
+                "parentId": "1",
+                "syncing": true,
+                "title": "GeeksForGeeks",
+                "url": "https://www.geeksforgeeks.org/introduction-to-python/?ref=lbp"
+            },
+            {
+                "dateAdded": 1785009222220,
+                "dateLastUsed": 1786787834443,
+                "id": "525",
+                "index": 105,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Gemini",
+                "url": "https://gemini.google.com/"
+            },
+            {
+                "dateAdded": 1716314775000,
+                "id": "138",
+                "index": 106,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Gemini",
+                "url": "https://gemini.google.com/app?hl=en-IN"
+            },
+            {
+                "dateAdded": 1705654548000,
+                "dateLastUsed": 1746712739626,
+                "id": "133",
+                "index": 107,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Get Into PC - Download Free Your Desired App",
+                "url": "https://getintopc.com/?id=000206157270"
+            },
+            {
+                "dateAdded": 1729343571676,
+                "id": "159",
+                "index": 108,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Get Location",
+                "url": "http://127.0.0.1:5500/locationaccess.html"
+            },
+            {
+                "dateAdded": 1750016892130,
+                "dateLastUsed": 1759165235682,
+                "id": "17",
+                "index": 109,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Github Stars",
+                "url": "https://github.com/sudhanshu-raj?tab=stars"
+            },
+            {
+                "dateAdded": 1731910298734,
+                "id": "164",
+                "index": 110,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Go Vegan Pumpkin Seeds Protein and Fiber Rich Superfood - 250g : Amazon.in: Grocery & Gourmet Foods",
+                "url": "https://www.amazon.in/Go-Vegan-Raw-Pumpkin-Seeds/dp/B094NPQXFY?psc=1&ref_=pd_bap_d_grid_rp_0_1_ec_cp_pd_hp_d_atf_rp_1_i"
+            },
+            {
+                "dateAdded": 1681403957000,
+                "id": "110",
+                "index": 111,
+                "parentId": "1",
+                "syncing": true,
+                "title": "God Kala Bhairava: An Angry Avatar of God Shiva - Rudra Centre",
+                "url": "https://www.rudraksha-ratna.com/articles/lord-bhairava"
+            },
+            {
+                "dateAdded": 1684608588000,
+                "id": "114",
+                "index": 112,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Good First Issue: Issues for your first open-source contribution",
+                "url": "https://goodfirstissue.dev/"
+            },
+            {
+                "dateAdded": 1735821787319,
+                "dateLastUsed": 1783268400310,
+                "id": "9",
+                "index": 113,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Google AI Stdio",
+                "url": "https://aistudio.google.com/gallery"
+            },
+            {
+                "dateAdded": 1751191825571,
+                "id": "228",
+                "index": 114,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Google Calendar",
+                "url": "https://calendar.google.com/calendar/u/0/r"
+            },
+            {
+                "dateAdded": 1715279323000,
+                "dateLastUsed": 1727789992648,
+                "id": "31",
+                "index": 115,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Google Colab",
+                "url": "https://colab.research.google.com/#scrollTo=B_WdvjnZjYFE"
+            },
+            {
+                "dateAdded": 1779220290326,
+                "dateLastUsed": 1787335983369,
+                "id": "487",
+                "index": 116,
+                "parentId": "1",
+                "syncing": true,
+                "title": "GSOC  Proposal",
+                "url": "https://summerofcode.withgoogle.com/media/user/e35ded39e5d4/proposal/gAAAAABqDL88O3wPxGRF3FuC6C3jOa68G50BoEnHiD-y-d91nTZDeMTHDP7eMv7Hn5yuUpkwuW6cwOyvZHLKOiyWsW1k-oWINFbt8KvOAGkMhcO-m0EnCY0=.pdf"
+            },
+            {
+                "dateAdded": 1736270495697,
+                "id": "179",
+                "index": 117,
+                "parentId": "1",
+                "syncing": true,
+                "title": "GYM SUPPLEMENTS SITE",
+                "url": "https://www.theaestheticnutrition.in/"
+            },
+            {
+                "dateAdded": 1642054085000,
+                "id": "69",
+                "index": 118,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Hacking class 14 - How to Deface Websites using SQL and Php scripting?",
+                "url": "https://www.hackingloops.com/hacking-class-14-how-to-deface-websites-using-sql-and-php-scripting/"
+            },
+            {
+                "dateAdded": 1760092683736,
+                "id": "251",
+                "index": 119,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Hacktoberfest 2025 - Community / events - Jenkins",
+                "url": "https://community.jenkins.io/t/hacktoberfest-2025/35653"
+            },
+            {
+                "dateAdded": 1717048357000,
+                "id": "141",
+                "index": 120,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Hair Health | Hims",
+                "url": "https://www.hims.com/blog/hair"
+            },
+            {
+                "dateAdded": 1642415315000,
+                "id": "71",
+                "index": 121,
+                "parentId": "1",
+                "syncing": true,
+                "title": "HDFC Securities Trading",
+                "url": "https://ntrade.hdfcsec.com/pages/homepage/home.jsp#"
+            },
+            {
+                "dateAdded": 1651135228000,
+                "id": "93",
+                "index": 122,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Hibernate - Mapping Types",
+                "url": "https://www.tutorialspoint.com/hibernate/hibernate_mapping_types.htm"
+            },
+            {
+                "dateAdded": 1651128995000,
+                "id": "92",
+                "index": 123,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Hibernate Architecture - GeeksforGeeks",
+                "url": "https://www.geeksforgeeks.org/hibernate-architecture/#:~:text=SessionFactory%20is%20an%20Interface%20which,is%20in%20the%20cfg%20Object."
+            },
+            {
+                "dateAdded": 1651127809000,
+                "id": "91",
+                "index": 124,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Hibernate Tutorial: Hibernate Transaction Management Example - javatpoint",
+                "url": "https://www.javatpoint.com/hibernate-transaction-management-example#:~:text=A%20transaction%20simply%20represents%20a,Consistency%2C%20Isolation%20and%20Durability)."
+            },
+            {
+                "dateAdded": 1686323834000,
+                "id": "116",
+                "index": 125,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Himovies | Watch series | Hi movies with himovies.tv",
+                "url": "https://www5.himovies.tv/"
+            },
+            {
+                "dateAdded": 1688991745000,
+                "id": "117",
+                "index": 126,
+                "parentId": "1",
+                "syncing": true,
+                "title": "hire teacher to solve math problems - Google Search",
+                "url": "https://www.google.com/search?q=hire+teacher+to+solve+math+problems&rlz=1C1GCEB_enIN1045IN1045&sxsrf=AB5stBgB9vg0MJwFpHuPKM7yETOgFGxi2A%3A1688991616154&ei=gPerZNfZCISw4-EPoYCQ4AI&oq=hire+teacher+to+solv&gs_lp=Egxnd3Mtd2l6LXNlcnAaAhgCIhRoaXJlIHRlYWNoZXIgdG8gc29sdioCCAAyBxAhGKABGAoyBxAhGKABGApIx0hQiQtYpEJwAHgEkAEAmAGVAqABkCCqAQcwLjEwLjEwuAEDyAEA-AEBwgIEEAAYR8ICBxAjGIoFGCfCAggQABiKBRiRAsICBxAAGIoFGEPCAgsQABiABBixAxiDAcICCxAuGIAEGLEDGIMBwgIFEAAYgATCAg4QABiKBRixAxiDARiRAsICBxAuGIoFGEPCAgoQABiKBRixAxhDwgIFEC4YgATCAggQLhiABBixA8ICDRAAGIAEGLEDGIMBGArCAgsQABiKBRixAxiDAcICCRAAGIoFGAoYQ8ICCBAAGIAEGLEDwgILEC4YgAQYxwEYrwHCAgcQABiABBgKwgIIEAAYigUYhgPCAgYQABgWGB7CAggQABgWGB4YD8ICChAhGKABGAoYiwPCAgcQIRgVGIsDwgILECEYFhgeGB0YiwPCAg0QIRgWGB4YDxgdGIsDwgIQECEYFhgeGA8Y8QQYHRiLA8ICCBAhGBYYHhgd4gMEGAAgQYgGAZAGCA&sclient=gws-wiz-serp"
+            },
+            {
+                "dateAdded": 1738836743363,
+                "id": "194",
+                "index": 127,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Home - Crawl4AI Documentation (v0.4.3bx)",
+                "url": "https://docs.crawl4ai.com/"
+            },
+            {
+                "dateAdded": 1729847959824,
+                "id": "161",
+                "index": 128,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Home - Leonardo.Ai",
+                "url": "https://app.leonardo.ai/"
+            },
+            {
+                "dateAdded": 1716282040000,
+                "dateLastUsed": 1733497467936,
+                "id": "35",
+                "index": 129,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Home - Microsoft Azure",
+                "url": "https://portal.azure.com/#home"
+            },
+            {
+                "dateAdded": 1732113288838,
+                "id": "165",
+                "index": 130,
+                "parentId": "1",
+                "syncing": true,
+                "title": "How to Scrape Hidden APIs",
+                "url": "https://scrapfly.io/blog/how-to-scrape-hidden-apis/"
+            },
+            {
+                "dateAdded": 1750455343929,
+                "id": "224",
+                "index": 131,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Hub | Skimlinks",
+                "url": "https://hub.skimlinks.com/snapshot"
+            },
+            {
+                "dateAdded": 1745787528913,
+                "dateLastUsed": 1754418975074,
+                "id": "22",
+                "index": 132,
+                "parentId": "1",
+                "syncing": true,
+                "title": "HydraHD - Watch Movies and Series in High Definition",
+                "url": "https://hydrahd.sh/"
+            },
+            {
+                "dateAdded": 1641969091000,
+                "id": "67",
+                "index": 133,
+                "parentId": "1",
+                "syncing": true,
+                "title": "IDE | GeeksforGeeks | A computer science portal for geeks",
+                "url": "https://ide.geeksforgeeks.org/"
+            },
+            {
+                "dateAdded": 1735926588470,
+                "id": "175",
+                "index": 134,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Image Editor",
+                "url": "https://app.visily.ai/projects/f90e1381-41f3-43d5-b141-97f2863f826c/boards/1535637"
+            },
+            {
+                "dateAdded": 1738398161110,
+                "id": "192",
+                "index": 135,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Images | Cloudinary",
+                "url": "https://console.cloudinary.com/console/c-a03697ff8bab9d1fbb54bad5ecb770/media_library/search?cld-target-product=digital_asset_management&q=&view_mode=mosaic"
+            },
+            {
+                "dateAdded": 1661138867000,
+                "id": "56",
+                "index": 136,
+                "parentId": "1",
+                "syncing": true,
+                "title": "in28Minutes",
+                "url": "https://courses.in28minutes.com/"
+            },
+            {
+                "dateAdded": 1759165262095,
+                "dateLastUsed": 1786286697926,
+                "id": "5",
+                "index": 137,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Inbox",
+                "url": "https://github.com/pulls/inbox"
+            },
+            {
+                "dateAdded": 1749572299887,
+                "id": "215",
+                "index": 138,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Inbox (1,170) - rajsudhanshu9431@gmail.com - Gmail",
+                "url": "https://mail.google.com/mail/u/0/#inbox"
+            },
+            {
+                "dateAdded": 1741291269574,
+                "id": "203",
+                "index": 139,
+                "parentId": "1",
+                "syncing": true,
+                "title": "INGRAM | Grievance Details",
+                "url": "https://consumerhelpline.gov.in/user/complaint-details.php?cid=6870138&&sid=14&&ctid=59"
+            },
+            {
+                "dateAdded": 1724087505000,
+                "id": "145",
+                "index": 140,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Instagram",
+                "url": "https://www.instagram.com/"
+            },
+            {
+                "dateAdded": 1716661742000,
+                "id": "140",
+                "index": 141,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Intro to logarithm properties (article) | Khan Academy",
+                "url": "https://www.khanacademy.org/math/algebra2/x2ec2f6f830c9fb89:logs/x2ec2f6f830c9fb89:log-prop/a/properties-of-logarithms"
+            },
+            {
+                "dateAdded": 1645863202000,
+                "id": "81",
+                "index": 142,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Java - Display double in 2 decimal places - Mkyong.com",
+                "url": "https://mkyong.com/java/java-display-double-in-2-decimal-points/#:~:text=format(%E2%80%9C%25.,double%20to%202%20decimal%20places."
+            },
+            {
+                "dateAdded": 1645589712000,
+                "id": "78",
+                "index": 143,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Java Programming Language - GeeksforGeeks",
+                "url": "https://www.geeksforgeeks.org/java/?ref=shm"
+            },
+            {
+                "dateAdded": 1647239995000,
+                "id": "84",
+                "index": 144,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Java String Reference",
+                "url": "https://www.w3schools.com/java/java_ref_string.asp"
+            },
+            {
+                "dateAdded": 1647234222000,
+                "id": "83",
+                "index": 145,
+                "parentId": "1",
+                "syncing": true,
+                "title": "java.text.SimpleDateFormat.parse java code examples | Tabnine",
+                "url": "https://www.tabnine.com/code/java/methods/java.text.SimpleDateFormat/parse"
+            },
+            {
+                "dateAdded": 1726128686000,
+                "dateLastUsed": 1784666827284,
+                "id": "8",
+                "index": 146,
+                "parentId": "1",
+                "syncing": true,
+                "title": "JAVABACKEND",
+                "url": "https://docs.google.com/document/d/1tPpOFHRwE9FHDNF1K-NhQBO8Tp1g7O7XRLrTN2TvqRU/edit#heading=h.lopfq989ylcq"
+            },
+            {
+                "dateAdded": 1680593917000,
+                "id": "48",
+                "index": 147,
+                "parentId": "1",
+                "syncing": true,
+                "title": "javatpoint",
+                "url": "https://www.javatpoint.com/thread-scheduler-in-java"
+            },
+            {
+                "dateAdded": 1673100510000,
+                "id": "107",
+                "index": 148,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Just a moment...",
+                "url": "https://chat.openai.com/chat"
+            },
+            {
+                "dateAdded": 1663225372000,
+                "id": "105",
+                "index": 149,
+                "parentId": "1",
+                "syncing": true,
+                "title": "just random Flashcards | Quizlet",
+                "url": "https://quizlet.com/in/723302209/just-random-flash-cards/?new"
+            },
+            {
+                "dateAdded": 1728031689691,
+                "id": "155",
+                "index": 150,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Keyboard shortcuts in Microsoft Edge - Microsoft Support",
+                "url": "https://support.microsoft.com/en-us/microsoft-edge/keyboard-shortcuts-in-microsoft-edge-50d3edab-30d9-c7e4-21ce-37fe2713cfad?ocid=cmm2nuwf7j7"
+            },
+            {
+                "dateAdded": 1686831480000,
+                "id": "42",
+                "index": 151,
+                "parentId": "1",
+                "syncing": true,
+                "title": "learn css",
+                "url": "https://web.dev/learn/css/box-model/"
+            },
+            {
+                "dateAdded": 1702981599000,
+                "id": "130",
+                "index": 152,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Learn to become a modern Python developer",
+                "url": "https://roadmap.sh/python"
+            },
+            {
+                "dateAdded": 1777478437707,
+                "dateLastUsed": 1787072860627,
+                "id": "483",
+                "index": 153,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Learn Touch Typing Free - TypingClub",
+                "url": "https://www.typingclub.com/"
+            },
+            {
+                "dateAdded": 1727934737676,
+                "dateLastUsed": 1749809967768,
+                "id": "27",
+                "index": 154,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Legion 5 15IRX9",
+                "url": "https://psref.lenovo.com/Product/Legion/Legion_5_15IRX9"
+            },
+            {
+                "dateAdded": 1644153158000,
+                "id": "76",
+                "index": 155,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Linked List | Set 1 (Introduction) - GeeksforGeeks",
+                "url": "https://www.geeksforgeeks.org/linked-list-set-1-introduction/?ref=lbp"
+            },
+            {
+                "dateAdded": 1731773105894,
+                "id": "162",
+                "index": 156,
+                "parentId": "1",
+                "syncing": true,
+                "title": "llama",
+                "url": "https://crawl4ai.com/mkdocs/basic/simple-crawling/"
+            },
+            {
+                "dateAdded": 1634540455000,
+                "id": "59",
+                "index": 157,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Log In - Typing.com",
+                "url": "https://www.typing.com/student/login#r:/student/lesson/359/j-f-and-space"
+            },
+            {
+                "dateAdded": 1642423921000,
+                "id": "65",
+                "index": 158,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Login or Register to shop online with Reliance Digital",
+                "url": "https://www.reliancedigital.in/thankyou"
+            },
+            {
+                "dateAdded": 1751276861502,
+                "id": "230",
+                "index": 159,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Login to Cuelinks Affiliate Marketing Platform",
+                "url": "https://www.cuelinks.com/login"
+            },
+            {
+                "dateAdded": 1757699683072,
+                "dateLastUsed": 1757748251419,
+                "id": "243",
+                "index": 160,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Low Poly City - 3D model by Nik_0 (@Nik_0) [1b3dea4]",
+                "url": "https://sketchfab.com/3d-models/low-poly-city-1b3dea4fc2f34af4ba8172b4b869ebe7"
+            },
+            {
+                "dateAdded": 1705651060000,
+                "dateLastUsed": 1748033499515,
+                "id": "132",
+                "index": 161,
+                "parentId": "1",
+                "syncing": true,
+                "title": "LunaPic | Free Online Photo Editor | Recover Last Image",
+                "url": "https://www9.lunapic.com/editor/index.php?action=recover&backupid=1"
+            },
+            {
+                "dateAdded": 1737142633052,
+                "id": "186",
+                "index": 162,
+                "parentId": "1",
+                "syncing": true,
+                "title": "m5-docs| timercam_f",
+                "url": "https://docs.m5stack.com/en/unit/timercam_f"
+            },
+            {
+                "dateAdded": 1747255890158,
+                "id": "210",
+                "index": 163,
+                "parentId": "1",
+                "syncing": true,
+                "title": "mail tester",
+                "url": "https://www.mail-tester.com/test-56my4tfln&reloaded=5"
+            },
+            {
+                "dateAdded": 1780230660443,
+                "id": "491",
+                "index": 164,
+                "parentId": "1",
+                "syncing": true,
+                "title": "MakerWorld: Download Free 3D Models",
+                "url": "https://makerworld.com/en"
+            },
+            {
+                "dateAdded": 1678785855000,
+                "id": "109",
+                "index": 165,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Maps",
+                "url": "https://maps.google.com/"
+            },
+            {
+                "dateAdded": 1736449872276,
+                "id": "182",
+                "index": 166,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Material Theme Builder",
+                "url": "https://material-foundation.github.io/material-theme-builder/"
+            },
+            {
+                "dateAdded": 1747305210330,
+                "id": "212",
+                "index": 167,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Matisse - flatuicolorpicker : Best Flat Colors UI Design",
+                "url": "https://www.flatuicolorpicker.com/colors/matisse/"
+            },
+            {
+                "dateAdded": 1785686123095,
+                "dateLastUsed": 1787226777692,
+                "id": "545",
+                "index": 168,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Medium",
+                "url": "https://medium.com/"
+            },
+            {
+                "dateAdded": 1642052887000,
+                "id": "68",
+                "index": 169,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Meet Guru99 – Free Training Tutorials & Video for IT Courses",
+                "url": "https://www.guru99.com/"
+            },
+            {
+                "dateAdded": 1748002729859,
+                "id": "213",
+                "index": 170,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Meta Business Suite",
+                "url": "https://business.facebook.com/latest/settings/business_info?business_id=1896060451195441"
+            },
+            {
+                "dateAdded": 1741169974619,
+                "id": "202",
+                "index": 171,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Meta Business Suite",
+                "url": "https://business.facebook.com/latest/business_home?nav_ref=bm_home_redirect&bm_redirect_migration=true&business_id=1616366102338552&mio=0"
+            },
+            {
+                "dateAdded": 1741159372304,
+                "id": "200",
+                "index": 172,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Meta Business Suite",
+                "url": "https://business.facebook.com/latest/settings/whatsapp_account?business_id=1616366102338552&selected_asset_id=516131774924204&selected_asset_type=whatsapp-business-account"
+            },
+            {
+                "dateAdded": 1662633015000,
+                "id": "39",
+                "index": 173,
+                "parentId": "1",
+                "syncing": true,
+                "title": "MetaMask",
+                "url": "chrome-extension://nkbihfbeogaeaoehlefnkodbefgpgknn/home.html#"
+            },
+            {
+                "dateAdded": 1719905366000,
+                "id": "34",
+                "index": 174,
+                "parentId": "1",
+                "syncing": true,
+                "title": "mistal-dolphin",
+                "url": "https://colab.research.google.com/drive/1I644VTxJeK1ayThk8SkPl7HrNdRJz6AG?usp=sharing&authuser=1#scrollTo=vieBgAdDSgQ-"
+            },
+            {
+                "dateAdded": 1739289456918,
+                "id": "196",
+                "index": 175,
+                "parentId": "1",
+                "syncing": true,
+                "title": "mkvCinemas PC and smartphone Movies of Bollywood Hollywood Hindi Cartoon Animation TV Shows Web Series at mkvCinemas - mkvCinemas.Com",
+                "url": "https://mkvcinemas.moi/"
+            },
+            {
+                "dateAdded": 1786549912338,
+                "dateLastUsed": 1787072358707,
+                "id": "556",
+                "index": 176,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Monkeytype",
+                "url": "https://monkeytype.com/"
+            },
+            {
+                "dateAdded": 1732716613709,
+                "dateLastUsed": 1737533323289,
+                "id": "168",
+                "index": 177,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Movies / TV / Anime • freemediaheckyeah",
+                "url": "https://fmhy.net/videopiracyguide"
+            },
+            {
+                "dateAdded": 1659177636000,
+                "id": "94",
+                "index": 178,
+                "parentId": "1",
+                "syncing": true,
+                "title": "My Account",
+                "url": "https://myaccount.microsoft.com/?ref=MeControl"
+            },
+            {
+                "dateAdded": 1757218025297,
+                "id": "241",
+                "index": 179,
+                "parentId": "1",
+                "syncing": true,
+                "title": "My first three.js app",
+                "url": "http://localhost:3000/"
+            },
+            {
+                "dateAdded": 1771249690404,
+                "id": "439",
+                "index": 180,
+                "parentId": "1",
+                "syncing": true,
+                "title": "My View - Global Query",
+                "url": "https://globalquery.oneforma.com/my_view_page.php"
+            },
+            {
+                "dateAdded": 1677165034000,
+                "id": "51",
+                "index": 181,
+                "parentId": "1",
+                "syncing": true,
+                "title": "MySQL",
+                "url": "https://www.javatpoint.com/mysql-variables"
+            },
+            {
+                "dateAdded": 1735900293837,
+                "dateLastUsed": 1738599806177,
+                "id": "173",
+                "index": 182,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Netlify | Deploy Sites",
+                "url": "https://app.netlify.com/sites/pricescope/configuration/general"
+            },
+            {
+                "dateAdded": 1659253948000,
+                "id": "54",
+                "index": 183,
+                "parentId": "1",
+                "syncing": true,
+                "title": "News",
+                "url": "https://news.google.com/"
+            },
+            {
+                "dateAdded": 1751278556161,
+                "id": "231",
+                "index": 184,
+                "parentId": "1",
+                "syncing": true,
+                "title": "NotebookLM",
+                "url": "https://notebooklm.google.com/"
+            },
+            {
+                "dateAdded": 1739010881020,
+                "dateLastUsed": 1750690658951,
+                "id": "24",
+                "index": 185,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Notion",
+                "url": "https://www.notion.so/Real-Time-Price-Drop-Stock-Alert-for-E-commerce-194ecd30dda38029bebfdb7c387a7061?showMoveTo=true&saveParent=true"
+            },
+            {
+                "dateAdded": 1738054892191,
+                "id": "190",
+                "index": 186,
+                "parentId": "1",
+                "syncing": true,
+                "title": "NVIDIA Share Price today - Invest in NVDA Stock | Quote & Returns",
+                "url": "https://hdfcsec.vestedfinance.com/stocks/nvda/nvda-share-price"
+            },
+            {
+                "dateAdded": 1679992125000,
+                "id": "50",
+                "index": 187,
+                "parentId": "1",
+                "syncing": true,
+                "title": "OCR",
+                "url": "https://www.imagetotext.info/"
+            },
+            {
+                "dateAdded": 1637770749000,
+                "id": "60",
+                "index": 188,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Online C++ Compiler - online editor",
+                "url": "https://www.onlinegdb.com/online_c++_compiler"
+            },
+            {
+                "dateAdded": 1675353350000,
+                "id": "53",
+                "index": 189,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Online Clipboard",
+                "url": "https://online-clipboard.online/online-clipboard/"
+            },
+            {
+                "dateAdded": 1643220132000,
+                "id": "40",
+                "index": 190,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Online Compiler",
+                "url": "https://www.programiz.com/c-programming/online-compiler/"
+            },
+            {
+                "dateAdded": 1645636322000,
+                "id": "79",
+                "index": 191,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Online Java Compiler",
+                "url": "https://www.programiz.com/java-programming/online-compiler/"
+            },
+            {
+                "dateAdded": 1728064317203,
+                "id": "156",
+                "index": 192,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Online Video Downloader and Converter [Updated 2024]",
+                "url": "https://www.savethevideo.com/home?url=https%3A%2F%2Fwww.reddit.com%2Fr%2FIndianDankMemes%2Fcomments%2F1fveac8%2Fgenuine_disappointment%2F%3Futm_source%3Dshare%26utm_medium%3Dweb3x%26utm_name%3Dweb3xcss%26utm_term%3D1%26utm_content%3Dshare_button"
+            },
+            {
+                "dateAdded": 1753897500086,
+                "dateLastUsed": 1754053042734,
+                "id": "236",
+                "index": 193,
+                "parentId": "1",
+                "syncing": true,
+                "title": "OpenGameArt.org",
+                "url": "https://opengameart.org/art-search?keys=speed&page=4"
+            },
+            {
+                "dateAdded": 1759577000527,
+                "id": "248",
+                "index": 194,
+                "parentId": "1",
+                "syncing": true,
+                "title": "OpenMRS DESIGN",
+                "url": "https://zeroheight.com/23a080e38/p/2084e9-omrs-3x"
+            },
+            {
+                "dateAdded": 1759577321489,
+                "id": "249",
+                "index": 195,
+                "parentId": "1",
+                "syncing": true,
+                "title": "OpenMRS Meetings",
+                "url": "https://openmrs.atlassian.net/wiki/spaces/docs/pages/26278390/Events+Meetings+OpenMRS+Calendar"
+            },
+            {
+                "dateAdded": 1750786505418,
+                "dateLastUsed": 1752665130273,
+                "id": "20",
+                "index": 196,
+                "parentId": "1",
+                "syncing": true,
+                "title": "OS GFG",
+                "url": "https://www.geeksforgeeks.org/operating-systems/operating-systems/"
+            },
+            {
+                "dateAdded": 1659238018000,
+                "id": "95",
+                "index": 197,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Outlook",
+                "url": "https://outlook.office365.com/mail/"
+            },
+            {
+                "dateAdded": 1758618966988,
+                "dateLastUsed": 1759228008975,
+                "id": "16",
+                "index": 198,
+                "parentId": "1",
+                "syncing": true,
+                "title": "OverTheWire: Bandit",
+                "url": "https://overthewire.org/wargames/bandit/"
+            },
+            {
+                "dateAdded": 1701013008000,
+                "id": "124",
+                "index": 199,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Overview",
+                "url": "https://dashboard.umbrella.com/o/8224650/#/overview?encodedFilters=JTdCJTIyYWN0aW9uJTIyJTNBJTIyYmxvY2tlZCUyMiUyQyUyMnNlbGVjdGVkRGF0ZVJhbmdlSWR4JTIyJTNBMCU3RA%3D%3D"
+            },
+            {
+                "dateAdded": 1736419848649,
+                "id": "180",
+                "index": 200,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Pearson | Test Hub",
+                "url": "https://english-testhub.pearson.com/my-tests/upcoming"
+            },
+            {
+                "dateAdded": 1738222196463,
+                "id": "191",
+                "index": 201,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Permissions on Android  |  Android Developers",
+                "url": "https://developer.android.com/guide/topics/permissions/overview"
+            },
+            {
+                "dateAdded": 1753330207964,
+                "dateLastUsed": 1763308414470,
+                "id": "14",
+                "index": 202,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Perplexity",
+                "url": "https://www.perplexity.ai/"
+            },
+            {
+                "dateAdded": 1731779705283,
+                "id": "163",
+                "index": 203,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Playground - GroqCloud",
+                "url": "https://console.groq.com/playground?model=llama3-8b-8192"
+            },
+            {
+                "dateAdded": 1757688447449,
+                "id": "242",
+                "index": 204,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Polygonia City Cars Pack - 3D model by antonmoek (@antonmoek) [2ff3e5e]",
+                "url": "https://sketchfab.com/3d-models/polygonia-city-cars-pack-2ff3e5e9017f44458d744f7d4426c9e2"
+            },
+            {
+                "dateAdded": 1734102661199,
+                "id": "171",
+                "index": 205,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Practice: Kotlin Fundamentals",
+                "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-kotlin-fundamentals-practice-problems?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-basics-compose-unit-2-pathway-1%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fbasic-android-kotlin-compose-kotlin-fundamentals-practice-problems#8"
+            },
+            {
+                "dateAdded": 1650521214000,
+                "id": "90",
+                "index": 206,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Presentation5.pptx",
+                "url": "https://hclo365-my.sharepoint.com/:p:/g/personal/garima_awasthi_hcl_com/ESIq4qhzGbVEqkg3AWiqq_8B1E_LyFnO-dv2w7_94XotRw?e=4%3AkvUYIo&at=9&CID=92356c75-c97e-02a1-cd33-5c3affc06d6d"
+            },
+            {
+                "dateAdded": 1741166154147,
+                "id": "201",
+                "index": 207,
+                "parentId": "1",
+                "syncing": true,
+                "title": "priceradar - DigitalOcean App Platform",
+                "url": "https://cloud.digitalocean.com/apps/c56dc6fb-4289-46a2-a2fd-9aa56327d02d/settings?i=f79003"
+            },
+            {
+                "dateAdded": 1741023539917,
+                "dateLastUsed": 1741160809207,
+                "id": "199",
+                "index": 208,
+                "parentId": "1",
+                "syncing": true,
+                "title": "priceradar.live ",
+                "url": "https://www.name.com/account/domain/details/priceradar.live#dns"
+            },
+            {
+                "dateAdded": 1735902489085,
+                "id": "174",
+                "index": 209,
+                "parentId": "1",
+                "syncing": true,
+                "title": "PRICESCOPE: Lucidchart",
+                "url": "https://lucid.app/lucidchart/b1ce56bb-a56c-44e0-8771-01dfbf0a740e/edit?beaconFlowId=2E88DFA661ED145C&invitationId=inv_b5698fe7-8b93-425a-8d75-595b974ffda6&page=0_0#"
+            },
+            {
+                "dateAdded": 1737120354721,
+                "id": "184",
+                "index": 210,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Printables.com",
+                "url": "https://www.printables.com/"
+            },
+            {
+                "dateAdded": 1759642202564,
+                "id": "250",
+                "index": 211,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Profile | Hacktoberfest 2025",
+                "url": "https://hacktoberfest.com/profile/"
+            },
+            {
+                "dateAdded": 1751145280495,
+                "id": "227",
+                "index": 212,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Promise - JavaScript | MDN",
+                "url": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+            },
+            {
+                "dateAdded": 1647776218000,
+                "id": "85",
+                "index": 213,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Protein Rich Food - Vegetarian Diet Plan, Benefits & Recipes | HealthifyMe",
+                "url": "https://www.healthifyme.com/blog/7-high-protein-indian-vegetarian-foods/"
+            },
+            {
+                "dateAdded": 1746300809280,
+                "dateLastUsed": 1753216784828,
+                "id": "19",
+                "index": 214,
+                "parentId": "1",
+                "syncing": true,
+                "title": "querypilot",
+                "url": "https://querypilot.tech/securitycheck"
+            },
+            {
+                "dateAdded": 1746278289901,
+                "id": "206",
+                "index": 215,
+                "parentId": "1",
+                "syncing": true,
+                "title": "querypilot.tech/lander",
+                "url": "https://querypilot.tech/lander"
+            },
+            {
+                "dateAdded": 1686725203000,
+                "id": "36",
+                "index": 216,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Racing Drone Q 250mm with FPV and Video recording | XBOTICS",
+                "url": "https://www.xbotics.in/racing-drones/245-250-mm-racing-drone"
+            },
+            {
+                "dateAdded": 1738591820764,
+                "id": "193",
+                "index": 217,
+                "parentId": "1",
+                "syncing": true,
+                "title": "RARBG DUMP v2",
+                "url": "https://rarbgdump.com/"
+            },
+            {
+                "dateAdded": 1693984579000,
+                "id": "120",
+                "index": 218,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Razorpay Dashboard",
+                "url": "https://dashboard.razorpay.com/app/dashboard"
+            },
+            {
+                "dateAdded": 1750947042317,
+                "id": "225",
+                "index": 219,
+                "parentId": "1",
+                "syncing": true,
+                "title": "React Native Vector Icons: A Guide | Built In",
+                "url": "https://builtin.com/articles/react-native-vector-icons?utm_source=chatgpt.com"
+            },
+            {
+                "dateAdded": 1750950980842,
+                "id": "226",
+                "index": 220,
+                "parentId": "1",
+                "syncing": true,
+                "title": "react vector icons - Google Search",
+                "url": "https://www.google.com/search?q=react+vector+icons&oq=react+vector+&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBggBEEUYOTIHCAIQABiABDIHCAMQABiABDIGCAQQRRg8MgYIBRBFGDwyBggGEEUYPDIGCAcQLhhA0gEIMjY3NmowajGoAgCwAgA&sourceid=chrome&ie=UTF-8"
+            },
+            {
+                "dateAdded": 1740578167292,
+                "id": "198",
+                "index": 221,
+                "parentId": "1",
+                "syncing": true,
+                "title": "reddis",
+                "url": "https://docs.google.com/document/d/1tPpOFHRwE9FHDNF1K-NhQBO8Tp1g7O7XRLrTN2TvqRU/edit?tab=t.0#heading=h.lopfq989ylcq"
+            },
+            {
+                "dateAdded": 1757954744136,
+                "id": "244",
+                "index": 222,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Reshipping around the Globe",
+                "url": "https://www.delivo.co.in/#services"
+            },
+            {
+                "dateAdded": 1663075367000,
+                "id": "104",
+                "index": 223,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Right way to Compare String Objects in Java [Example] | Java67",
+                "url": "https://www.java67.com/2014/12/right-way-to-compare-string-in-java.html"
+            },
+            {
+                "dateAdded": 1701343967000,
+                "id": "127",
+                "index": 224,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Roundcube Webmail :: Inbox",
+                "url": "https://server167.web-hosting.com:2096/cpsess7822113015/3rdparty/roundcube/index.php?_task=mail&_mbox=INBOX"
+            },
+            {
+                "dateAdded": 1635412765000,
+                "id": "61",
+                "index": 225,
+                "parentId": "1",
+                "syncing": true,
+                "title": "SDL 20_ Oct-28th & 29th",
+                "url": "https://forms.office.com/pages/responsepage.aspx?id=N-edGDrJWk-LaG9MqZQZEokXBsaKaTdJketbFd56QyJUMUNNTzEzQTdURkhLWk45WlRXNEFNSkpJOSQlQCN0PWcu"
+            },
+            {
+                "dateAdded": 1648296985000,
+                "id": "86",
+                "index": 226,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Search results for Tongue - Flaticon",
+                "url": "https://www.flaticon.com/free-icon/tasty_6843733?term=tongue&page=1&position=53&page=1&position=53&related_id=6843733&origin=search"
+            },
+            {
+                "dateAdded": 1672830915000,
+                "id": "49",
+                "index": 227,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Sejda",
+                "url": "https://www.sejda.com/"
+            },
+            {
+                "dateAdded": 1682612768000,
+                "id": "47",
+                "index": 228,
+                "parentId": "1",
+                "syncing": true,
+                "title": "SERVICE_NOW_RE",
+                "url": "https://axaltacs.service-now.com/sp?id=sc_cat_item&sys_id=0b86302f1bbab0d0f10bdce8cc4bcb58&sysparm_category=72a36d0a1b8ff410f10bdce8cc4bcb6e"
+            },
+            {
+                "dateAdded": 1761223155777,
+                "id": "264",
+                "index": 229,
+                "parentId": "1",
+                "syncing": true,
+                "title": "ServiceNow Developer Instance",
+                "url": "https://dev279633.service-now.com/now/nav/ui/classic/params/target/ui_page.do%3Fsys_id%3De5edf9ef83e032107980a6d0deaad300"
+            },
+            {
+                "dateAdded": 1662533720000,
+                "id": "100",
+                "index": 230,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Share files privately and fast, without size limit with ToffeeShare",
+                "url": "https://toffeeshare.com/"
+            },
+            {
+                "dateAdded": 1700973357000,
+                "id": "123",
+                "index": 231,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Shared Hosting - My Account Panel - Namecheap.com",
+                "url": "https://ap.www.namecheap.com/domains/hosting/package/3133639?source=domainlist"
+            },
+            {
+                "dateAdded": 1671609617000,
+                "id": "106",
+                "index": 232,
+                "parentId": "1",
+                "syncing": true,
+                "title": "showwcase",
+                "url": "https://www.showwcase.com/communities"
+            },
+            {
+                "dateAdded": 1682612844000,
+                "id": "45",
+                "index": 233,
+                "parentId": "1",
+                "syncing": true,
+                "title": "SNOW_RE",
+                "url": "https://axaltacs.service-now.com/now/nav/ui/classic/params/target/home.do"
+            },
+            {
+                "dateAdded": 1750454682604,
+                "dateLastUsed": 1751274879917,
+                "id": "221",
+                "index": 234,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Sovrn Platform",
+                "url": "https://platform.sovrn.com/commerce/getting-started"
+            },
+            {
+                "dateAdded": 1688376296000,
+                "dateLastUsed": 1768932151848,
+                "id": "25",
+                "index": 235,
+                "parentId": "1",
+                "syncing": true,
+                "title": "spotify",
+                "url": "https://open.spotify.com/playlist/7hML3KJ78OoisMqtjiWhyy"
+            },
+            {
+                "dateAdded": 1693211339000,
+                "id": "119",
+                "index": 236,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Spring Boot - Logging | Tutorialspoint",
+                "url": "https://www.tutorialspoint.com/spring_boot/spring_boot_logging.htm"
+            },
+            {
+                "dateAdded": 1661514410000,
+                "id": "41",
+                "index": 237,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Spring Initializr",
+                "url": "https://start.spring.io/"
+            },
+            {
+                "dateAdded": 1642073697000,
+                "id": "70",
+                "index": 238,
+                "parentId": "1",
+                "syncing": true,
+                "title": "SQL Introduction",
+                "url": "https://www.w3schools.com/sql/sql_intro.asp"
+            },
+            {
+                "dateAdded": 1646388045000,
+                "id": "82",
+                "index": 239,
+                "parentId": "1",
+                "syncing": true,
+                "title": "strings",
+                "url": "https://www.w3resource.com/java-tutorial/exploring-methods-of-string-class.php"
+            },
+            {
+                "dateAdded": 1749287521878,
+                "dateLastUsed": 1784009423738,
+                "id": "13",
+                "index": 240,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Strivers A2Z DSA Course/Sheet",
+                "url": "https://takeuforward.org/strivers-a2z-dsa-course/strivers-a2z-dsa-course-sheet-2/"
+            },
+            {
+                "dateAdded": 1765544604858,
+                "id": "381",
+                "index": 241,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Submagic",
+                "url": "https://app.submagic.co/edit/3a9e1b6f-484a-49fe-a61e-4811c875c2a7"
+            },
+            {
+                "dateAdded": 1752833623506,
+                "id": "235",
+                "index": 242,
+                "parentId": "1",
+                "syncing": true,
+                "title": "SVG Viewer - View, edit, and optimize SVGs",
+                "url": "https://www.svgviewer.dev/"
+            },
+            {
+                "dateAdded": 1776408350359,
+                "dateLastUsed": 1781417540069,
+                "id": "473",
+                "index": 243,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Swarm Manual",
+                "url": "https://cdn.shopify.com/s/files/1/0619/4325/1121/files/Swarm_Brand_Manual.pdf?v=1756109461"
+            },
+            {
+                "dateAdded": 1643718119000,
+                "id": "74",
+                "index": 244,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Talent Rank",
+                "url": "https://hcl.talentrank.in/recEvent/candidateHome?amphiFilterIntime=1643715377404&sort=startTime&order=desc"
+            },
+            {
+                "dateAdded": 1650627034000,
+                "id": "55",
+                "index": 245,
+                "parentId": "1",
+                "syncing": true,
+                "title": "TARMAC",
+                "url": "https://tools.hcl.com/tool/user/home.aspx"
+            },
+            {
+                "dateAdded": 1725282880000,
+                "id": "147",
+                "index": 246,
+                "parentId": "1",
+                "syncing": true,
+                "title": "TaskMaster – Uizard",
+                "url": "https://app.uizard.io/prototypes/nRO9zaEo9btv8OZqnR6P"
+            },
+            {
+                "dateAdded": 1643691325000,
+                "id": "73",
+                "index": 247,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Tell me about yourself. - HR Interview Questions and Answers",
+                "url": "https://www.indiabix.com/hr-interview/tell-me-about-yourself/"
+            },
+            {
+                "dateAdded": 1746354815409,
+                "dateLastUsed": 1751911534262,
+                "id": "207",
+                "index": 248,
+                "parentId": "1",
+                "syncing": true,
+                "title": "The Complete Networking Fundamentals Course. Your CCNA start",
+                "url": "https://hacksnation.com/d/36356-the-complete-networking-fundamentals-course-your-ccna-start"
+            },
+            {
+                "dateAdded": 1685980569000,
+                "id": "115",
+                "index": 249,
+                "parentId": "1",
+                "syncing": true,
+                "title": "The CSS Handbook",
+                "url": "https://flaviocopes.com/book/css/"
+            },
+            {
+                "dateAdded": 1634396314000,
+                "id": "52",
+                "index": 250,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Tinkercad",
+                "url": "https://www.tinkercad.com/dashboard?type=circuits&collection=designs"
+            },
+            {
+                "dateAdded": 1769099589060,
+                "id": "422",
+                "index": 251,
+                "parentId": "1",
+                "syncing": true,
+                "title": "TorrentBay | Unblock Torrent & Streaming Sites by Proxy",
+                "url": "https://torrentbay.st/#"
+            },
+            {
+                "dateAdded": 1736968862012,
+                "id": "183",
+                "index": 252,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Twilio Console",
+                "url": "https://console.twilio.com/?frameUrl=%2Fconsole%3Fx-target-region%3Dus1"
+            },
+            {
+                "dateAdded": 1755090013444,
+                "dateLastUsed": 1785874326411,
+                "id": "15",
+                "index": 253,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Twitter",
+                "url": "https://x.com/home"
+            },
+            {
+                "dateAdded": 1645785677000,
+                "id": "80",
+                "index": 254,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Types of Errors in Java with Examples - GeeksforGeeks",
+                "url": "https://www.geeksforgeeks.org/types-of-errors-in-java-with-examples/#:~:text=Logical%20Error%3A%20A%20logic%20error,by%20compiler%20nor%20by%20JVM."
+            },
+            {
+                "dateAdded": 1637836094000,
+                "id": "63",
+                "index": 255,
+                "parentId": "1",
+                "syncing": true,
+                "title": "TypingTest.com - Complete a Typing Test in 60 Seconds!",
+                "url": "https://www.typingtest.com/"
+            },
+            {
+                "dateAdded": 1735928156608,
+                "dateLastUsed": 1735972139670,
+                "id": "177",
+                "index": 256,
+                "parentId": "1",
+                "syncing": true,
+                "title": "UI DESIGN | PROMPT GENERATER",
+                "url": "https://siteforge.io/app/brand/loiktajnbhp1kxrrd3p0/memories"
+            },
+            {
+                "dateAdded": 1733603774245,
+                "dateLastUsed": 1736449722195,
+                "id": "28",
+                "index": 257,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Using Classes and Objects in Kotlin || Kotlin",
+                "url": "https://developer.android.com/codelabs/android-development-kotlin-3.1?continue=https%3A%2F%2Fdeveloper.android.com%2Fcourses%2Fpathways%2Fandroid-development-with-kotlin-3%23codelab-https%3A%2F%2Fdeveloper.android.com%2Fcodelabs%2Fandroid-development-kotlin-3.1#5"
+            },
+            {
+                "dateAdded": 1713635833000,
+                "id": "136",
+                "index": 258,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Vertex AI – GoogleCloudAI – Google Cloud console",
+                "url": "https://console.cloud.google.com/vertex-ai/generative/multimodal/prompt-examples/Write%20story%20from%20image?hl=en&project=copper-depot-420915"
+            },
+            {
+                "dateAdded": 1728104880129,
+                "id": "30",
+                "index": 259,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Video Trimmer",
+                "url": "https://online-video-cutter.com/"
+            },
+            {
+                "dateAdded": 1644904785000,
+                "id": "77",
+                "index": 260,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Virus and Hacking with virus: VIRUS in C and C++ language",
+                "url": "http://gauravgupta-virus.blogspot.com/p/websites-blocker-virus-in-c-lang.html"
+            },
+            {
+                "dateAdded": 1714456907000,
+                "id": "137",
+                "index": 261,
+                "parentId": "1",
+                "syncing": true,
+                "title": "visualising data structures and algorithms through animation - VisuAlgo",
+                "url": "https://visualgo.net/en"
+            },
+            {
+                "dateAdded": 1744055294271,
+                "dateLastUsed": 1745325458275,
+                "id": "46",
+                "index": 262,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Watch Madrid, 1987 Online Full Movie — PopcornMovies",
+                "url": "https://popcornmovies.to/movie/madrid-1987"
+            },
+            {
+                "dateAdded": 1649668871000,
+                "id": "87",
+                "index": 263,
+                "parentId": "1",
+                "syncing": true,
+                "title": "What is a Data Breach? | Malwarebytes",
+                "url": "https://www.malwarebytes.com/data-breach"
+            },
+            {
+                "dateAdded": 1662289884000,
+                "id": "99",
+                "index": 264,
+                "parentId": "1",
+                "syncing": true,
+                "title": "What is Informatica ETL Tool | Informatica Tutorial | Edureka",
+                "url": "https://www.edureka.co/blog/what-is-informatica/"
+            },
+            {
+                "dateAdded": 1662209051000,
+                "id": "98",
+                "index": 265,
+                "parentId": "1",
+                "syncing": true,
+                "title": "What is the Difference Between Data Integration and ETL - Pediaa.Com",
+                "url": "https://pediaa.com/what-is-the-difference-between-data-integration-and-etl/#:~:text=The%20difference%20between%20data%20integration%20and%20ETL%20is%20that%20the,in%20a%20data%20warehouse%20environment."
+            },
+            {
+                "dateAdded": 1734169269985,
+                "id": "172",
+                "index": 266,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Widecanvas AI - Draw, Speak, and Code Your App to Life",
+                "url": "https://www.widecanvas.ai/"
+            },
+            {
+                "dateAdded": 1777456525473,
+                "id": "482",
+                "index": 267,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Windy: Menu",
+                "url": "https://www.windy.com/-Menu/menu?temp,26.156,85.585,7,p:cities,m:epcaiq3"
+            },
+            {
+                "dateAdded": 1701266041000,
+                "id": "126",
+                "index": 268,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Wordpress Admin",
+                "url": "https://apnaelectronics.com/wp-admin/"
+            },
+            {
+                "dateAdded": 1662533805000,
+                "id": "101",
+                "index": 269,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Wordtune | Your personal writing assistant & editor",
+                "url": "https://www.wordtune.com/"
+            },
+            {
+                "dateAdded": 1748605377722,
+                "id": "214",
+                "index": 270,
+                "parentId": "1",
+                "syncing": true,
+                "title": "World’s Largest Hackathon presented by Bolt: Build with AI for a shot at some of the $1M+ in prizes. - Devpost",
+                "url": "https://worldslargesthackathon.devpost.com/participants"
+            },
+            {
+                "dateAdded": 1728295353388,
+                "id": "157",
+                "index": 271,
+                "parentId": "1",
+                "syncing": true,
+                "title": "XPLORIA AI",
+                "url": "https://www.aixploria.com/en/"
+            },
+            {
+                "dateAdded": 1728068576963,
+                "id": "26",
+                "index": 272,
+                "parentId": "1",
+                "syncing": true,
+                "title": "YoutTube Vid Downld",
+                "url": "https://save-from.net/en16BO/"
+            },
+            {
+                "dateAdded": 1786301912019,
+                "dateLastUsed": 1787227334939,
+                "id": "553",
+                "index": 273,
+                "parentId": "1",
+                "syncing": true,
+                "title": "YouTube",
+                "url": "https://www.youtube.com/"
+            },
+            {
+                "dateAdded": 1678785855000,
+                "id": "108",
+                "index": 274,
+                "parentId": "1",
+                "syncing": true,
+                "title": "YouTube",
+                "url": "https://youtube.com/"
+            },
+            {
+                "dateAdded": 1737796016111,
+                "id": "188",
+                "index": 275,
+                "parentId": "1",
+                "syncing": true,
+                "title": "YouTube Video Summarizer with AI - Online Free",
+                "url": "https://notegpt.io/youtube-video-summarizer"
+            },
+            {
+                "dateAdded": 1727673386000,
+                "dateLastUsed": 1777981851653,
+                "id": "33",
+                "index": 276,
+                "parentId": "1",
+                "syncing": true,
+                "title": "yuktamehta24",
+                "url": "https://github.com/yuktamehta24"
+            },
+            {
+                "dateAdded": 1746784426056,
+                "id": "209",
+                "index": 277,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Zoho Mail - Admin Console",
+                "url": "https://mailadmin.zoho.in/cpanel/home.do#users/list"
+            },
+            {
+                "dateAdded": 1746784411563,
+                "id": "208",
+                "index": 278,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Zoho Mail (support@buzzlyn.com)",
+                "url": "https://mail.zoho.in/zm/#mail/folder/inbox"
+            },
+            {
+                "dateAdded": 1744752653832,
+                "dateLastUsed": 1753647415187,
+                "id": "21",
+                "index": 279,
+                "parentId": "1",
+                "syncing": true,
+                "title": "Вторая жена / La seconda moglie (1998)",
+                "url": "https://vk.com/video572886695_456240631"
+            }
+        ],
+        "dateAdded": 1727816308599,
+        "dateGroupModified": 1787637782834,
+        "folderType": "bookmarks-bar",
+        "id": "1",
+        "index": 0,
+        "parentId": "0",
+        "syncing": true,
+        "title": "Bookmarks bar"
+    },
+    {
+        "children": [
+            {
+                "children": [
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "dateAdded": 1787644895936,
+                                        "id": "564",
+                                        "index": 0,
+                                        "parentId": "571",
+                                        "syncing": true,
+                                        "title": "(7223) Essence of linear algebra - YouTube",
+                                        "url": "https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab"
+                                    },
+                                    {
+                                        "dateAdded": 1787643905263,
+                                        "id": "563",
+                                        "index": 1,
+                                        "parentId": "571",
+                                        "syncing": true,
+                                        "title": "All the Math You Need to Know in Artificial Intelligence",
+                                        "url": "https://www.freecodecamp.org/news/all-the-math-you-need-in-artificial-intelligence/"
+                                    },
+                                    {
+                                        "dateAdded": 1787642587497,
+                                        "id": "562",
+                                        "index": 2,
+                                        "parentId": "571",
+                                        "syncing": true,
+                                        "title": "Algebra - Radicals",
+                                        "url": "https://tutorial.math.lamar.edu/classes/alg/Radicals.aspx"
+                                    }
+                                ],
+                                "dateAdded": 1787644960916,
+                                "dateGroupModified": 1787645078622,
+                                "id": "571",
+                                "index": 0,
+                                "parentId": "565",
+                                "syncing": true,
+                                "title": "AI Maths"
+                            },
+                            {
+                                "dateAdded": 1787645078622,
+                                "id": "572",
+                                "index": 1,
+                                "parentId": "565",
+                                "syncing": true,
+                                "title": "How to Become an AI Engineer in 2026 from Scratch - Freedium",
+                                "url": "https://freedium-mirror.cfd/https://medium.com/@allaboutdesigning696/how-to-become-an-ai-engineer-in-2026-from-scratch-4d9f4e23b3c6"
+                            },
+                            {
+                                "dateAdded": 1787645085521,
+                                "id": "573",
+                                "index": 2,
+                                "parentId": "565",
+                                "syncing": true,
+                                "title": "Lesson Catalog - AI Engineering from Scratch",
+                                "url": "https://aiengineeringfromscratch.com/catalog.html"
+                            },
+                            {
+                                "dateAdded": 1787645093344,
+                                "id": "574",
+                                "index": 3,
+                                "parentId": "565",
+                                "syncing": true,
+                                "title": "AI Engineer Roadmap",
+                                "url": "https://roadmap.sh/ai-engineer?fl=1"
+                            }
+                        ],
+                        "dateAdded": 1787644943044,
+                        "dateGroupModified": 1787686800452,
+                        "id": "565",
+                        "index": 0,
+                        "parentId": "533",
+                        "syncing": true,
+                        "title": "AI "
+                    },
+                    {
+                        "children": [
+                            {
+                                "children": [
+                                    {
+                                        "children": [
+                                            {
+                                                "dateAdded": 1785139520669,
+                                                "id": "539",
+                                                "index": 0,
+                                                "parentId": "540",
+                                                "syncing": true,
+                                                "title": "Event Driven Architecture",
+                                                "url": "https://onedrive.live.com/personal/6b364628c29feb52/_layouts/15/Doc.aspx?sourcedoc={764f8f4c-1eac-4ed6-975f-d5f10745afe7}&action=view&redeem=aHR0cHM6Ly8xZHJ2Lm1zL28vYy82YjM2NDYyOGMyOWZlYjUyL0lnQk1qMDkyckI3V1RwZGYxZkVIUmFfbkFWRDRGMXllMEdHdWVCVE5fQlItMGV3&wd=target%28EDA.one%7Cdb553963-5e53-624f-a29b-d90345d55c74%2F8-9.%20Producer%20Setup%7Cc6f843d0-141b-cd42-9250-144cf42e7f66%2F%29&wdorigin=NavigationUrl"
+                                            }
+                                        ],
+                                        "dateAdded": 1785139532616,
+                                        "dateGroupModified": 1785141997255,
+                                        "id": "540",
+                                        "index": 0,
+                                        "parentId": "536",
+                                        "syncing": true,
+                                        "title": "Event Driven Arch."
+                                    },
+                                    {
+                                        "children": [
+                                            {
+                                                "dateAdded": 1785139152042,
+                                                "dateLastUsed": 1785300319920,
+                                                "id": "538",
+                                                "index": 0,
+                                                "parentId": "537",
+                                                "syncing": true,
+                                                "title": "Git",
+                                                "url": "https://onedrive.live.com/personal/6b364628c29feb52/_layouts/15/Doc.aspx?sourcedoc={d129ac16-6569-416d-be84-6c89a3286160}&action=view&redeem=aHR0cHM6Ly8xZHJ2Lm1zL28vYy82YjM2NDYyOGMyOWZlYjUyL0lnQVdyQ25SYVdWdFFiNkViSW1qS0dGZ0FTWXExYkpvTWs2RmVGU0sxd0hnaHJF&wd=target%28New%20Section%201.one%7Cfbb1561d-8cf9-6543-94dc-7a077f967f8b%2F2.%20Git%20Architecture%7C1f587567-a07c-bf4c-bd8b-1ccbd3deab6f%2F%29&wdorigin=NavigationUrl"
+                                            }
+                                        ],
+                                        "dateAdded": 1785139134442,
+                                        "dateGroupModified": 1785139520669,
+                                        "id": "537",
+                                        "index": 1,
+                                        "parentId": "536",
+                                        "syncing": true,
+                                        "title": "Git Playlist "
+                                    }
+                                ],
+                                "dateAdded": 1785139011974,
+                                "dateGroupModified": 1785270850049,
+                                "id": "536",
+                                "index": 0,
+                                "parentId": "535",
+                                "syncing": true,
+                                "title": "Shrayansh YT Notes"
+                            }
+                        ],
+                        "dateAdded": 1785139001826,
+                        "dateGroupModified": 1785139011974,
+                        "id": "535",
+                        "index": 1,
+                        "parentId": "533",
+                        "syncing": true,
+                        "title": "Youtube_TUT"
+                    },
+                    {
+                        "children": [],
+                        "dateAdded": 1785138992061,
+                        "dateGroupModified": 1785138992061,
+                        "id": "534",
+                        "index": 2,
+                        "parentId": "533",
+                        "syncing": true,
+                        "title": "New folder"
+                    },
+                    {
+                        "dateAdded": 1787686800452,
+                        "id": "576",
+                        "index": 3,
+                        "parentId": "533",
+                        "syncing": true,
+                        "title": "DEV Community",
+                        "url": "https://dev.to/"
+                    }
+                ],
+                "dateAdded": 1785138981321,
+                "dateGroupModified": 1787686806467,
+                "id": "533",
+                "index": 0,
+                "parentId": "265",
+                "syncing": true,
+                "title": "Learnings"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1785084558021,
+                        "id": "531",
+                        "index": 0,
+                        "parentId": "526",
+                        "syncing": true,
+                        "title": "History",
+                        "url": "chrome://history/"
+                    },
+                    {
+                        "dateAdded": 1785042643401,
+                        "id": "530",
+                        "index": 1,
+                        "parentId": "526",
+                        "syncing": true,
+                        "title": "Sr Software Engineer (Backend) - Job detail | Siemens Healthineers AG CareersMarketplace",
+                        "url": "https://jobs.siemens-healthineers.com/en_US/searchJobs/JobDetail/512519?source=LinkedIn&sourceType=PREMIUM_POST_SITE"
+                    },
+                    {
+                        "dateAdded": 1785011985429,
+                        "id": "528",
+                        "index": 2,
+                        "parentId": "526",
+                        "syncing": true,
+                        "title": "Jobs | Lookout",
+                        "url": "https://www.lookout.com/careers/jobs"
+                    },
+                    {
+                        "dateAdded": 1785011894252,
+                        "id": "527",
+                        "index": 3,
+                        "parentId": "526",
+                        "syncing": true,
+                        "title": "Careers & Culture | Gainsight Software",
+                        "url": "https://www.gainsight.com/company/careers/"
+                    }
+                ],
+                "dateAdded": 1785011858725,
+                "dateGroupModified": 1785653633916,
+                "id": "526",
+                "index": 1,
+                "parentId": "265",
+                "syncing": true,
+                "title": "Company for Job "
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1784127480579,
+                        "id": "512",
+                        "index": 0,
+                        "parentId": "510",
+                        "syncing": true,
+                        "title": "BerriAI/litellm: Python SDK, Proxy Server (AI Gateway) to call 100+ LLM APIs in OpenAI (or native) format, with cost tracking, guardrails, loadbalancing and logging. [Bedrock, Azure, OpenAI, VertexAI, Cohere, Anthropic, Sagemaker, HuggingFace, VLLM, NVIDIA NIM]",
+                        "url": "https://github.com/BerriAI/litellm"
+                    },
+                    {
+                        "dateAdded": 1783542442526,
+                        "id": "509",
+                        "index": 1,
+                        "parentId": "510",
+                        "syncing": true,
+                        "title": "Tiny Tool Town 🏘️",
+                        "url": "https://www.tinytooltown.com/"
+                    }
+                ],
+                "dateAdded": 1783542483489,
+                "dateGroupModified": 1785653633920,
+                "id": "510",
+                "index": 2,
+                "parentId": "265",
+                "syncing": true,
+                "title": "Cool Tech"
+            },
+            {
+                "children": [
+                    {
+                        "dateAdded": 1782853353553,
+                        "id": "507",
+                        "index": 0,
+                        "parentId": "500",
+                        "syncing": true,
+                        "title": "Hindi Fonts - Page 2 | MyFonts",
+                        "url": "https://www.myfonts.com/pages/tags/hindi-fonts?page=2"
+                    },
+                    {
+                        "dateAdded": 1782853317262,
+                        "dateLastUsed": 1782986800449,
+                        "id": "506",
+                        "index": 1,
+                        "parentId": "500",
+                        "syncing": true,
+                        "title": "Shree Devanagari 1060 Font | Webfont & Desktop | MyFonts",
+                        "url": "https://www.myfonts.com/collections/shree-devanagari-1060-font-modularinfotech?queryId=0733689dbc659ece829d87c9e3070408&index=universal_search_data&objectIDs=OTkxNDExXzMxOTI4MV8xNzM4NjEwNzk3"
+                    },
+                    {
+                        "dateAdded": 1782853182209,
+                        "dateLastUsed": 1782997425335,
+                        "id": "505",
+                        "index": 2,
+                        "parentId": "500",
+                        "syncing": true,
+                        "title": "Hindi Fonts Projects :: Photos, videos, logos, illustrations and branding :: Behance",
+                        "url": "https://www.behance.net/search/projects/hindi%20fonts"
+                    },
+                    {
+                        "dateAdded": 1782852948282,
+                        "dateLastUsed": 1782986806968,
+                        "id": "504",
+                        "index": 3,
+                        "parentId": "500",
+                        "syncing": true,
+                        "title": "Hindi Font Style Generator — Stylish Fonts Free Download",
+                        "url": "https://hindifontstyle.co.in/#generator"
+                    },
+                    {
+                        "dateAdded": 1781468728954,
+                        "id": "502",
+                        "index": 4,
+                        "parentId": "500",
+                        "syncing": true,
+                        "title": "Honda CB300R Price, Images & Used CB300R Bikes - BikeWale",
+                        "url": "https://www.bikewale.com/honda-bikes/cb300r/"
+                    },
+                    {
+                        "dateAdded": 1781468617701,
+                        "id": "501",
+                        "index": 5,
+                        "parentId": "500",
+                        "syncing": true,
+                        "title": "Honda CB300F Flex-Fuel Price - Mileage, Images, Colours | BikeWale",
+                        "url": "https://www.bikewale.com/honda-bikes/cb300f-flex-fuel/?"
+                    }
+                ],
+                "dateAdded": 1781468596939,
+                "dateGroupModified": 1785653633918,
+                "id": "500",
+                "index": 3,
+                "parentId": "265",
+                "syncing": true,
+                "title": "Bikes"
+            },
+            {
+                "children": [
+                    {
+                        "children": [],
+                        "dateAdded": 1781020769164,
+                        "dateGroupModified": 1781020769164,
+                        "id": "498",
+                        "index": 0,
+                        "parentId": "497",
+                        "syncing": true,
+                        "title": "Readings"
+                    }
+                ],
+                "dateAdded": 1781020767379,
+                "dateGroupModified": 1781020769164,
+                "id": "497",
+                "index": 4,
+                "parentId": "265",
+                "syncing": true,
+                "title": "New folder"
+            },
+            {
+                "children": [],
+                "dateAdded": 1776617224189,
+                "dateGroupModified": 1776617224189,
+                "id": "476",
+                "index": 5,
+                "parentId": "265",
+                "syncing": true,
+                "title": "New folder"
+            },
+            {
+                "dateAdded": 1760860143839,
+                "dateLastUsed": 1785138995143,
+                "id": "266",
+                "index": 6,
+                "parentId": "265",
+                "syncing": true,
+                "title": "Hack4Good Idea Submission | Studio | ServiceNow",
+                "url": "https://dev279633.service-now.com/now/servicenow-studio/builder%3Ftable%3Dsys_app%26sysId%3D95b5d2b7938832108543b2597bba109c"
+            }
+        ],
+        "dateAdded": 1727816308599,
+        "dateGroupModified": 1785653699066,
+        "folderType": "other",
+        "id": "265",
+        "index": 1,
+        "parentId": "0",
+        "syncing": true,
+        "title": "Other bookmarks"
+    }
+]
