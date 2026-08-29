@@ -1,76 +1,217 @@
+.bookmark-card-wrapper {
+  position: relative;
+  display: flex;
+  align-items: stretch;
+}
+
 .bookmark-card {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  padding: 4px 6px;
-  border-radius: 8px;
-  background: var(--social-bg, rgba(255, 255, 255, 0.05));
-  border: 1px solid var(--border, rgba(255, 255, 255, 0.1));
+  gap: 3px;
+  padding: 9px 38px 9px 10px; /* right padding leaves room for ⋮ */
+  border-radius: var(--radius);
+  background: var(--bg);
+  border: 1px solid var(--border);
   text-decoration: none;
-  color: inherit;
-  transition: background 0.2s ease, border-color 0.2s ease, transform 0.15s ease;
-  max-width: 320px;
-  cursor: default;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition:
+    background var(--transition),
+    border-color var(--transition),
+    transform var(--transition),
+    box-shadow var(--transition);
+  overflow: hidden;
+  min-width: 0;
 }
 
 .bookmark-card:hover {
-  background: rgba(255, 255, 255, 0.08);
-  transform: translateY(-1px);
+  background: var(--bg-hover);
+  border-color: var(--border-focus);
+  box-shadow: var(--shadow-sm);
 }
 
+.bookmark-card:active {
+  transform: translateY(0);
+}
+
+/* Drag */
+.bookmark-card[draggable="true"] {
+  cursor: grab;
+}
+.bookmark-card[draggable="true"]:active {
+  cursor: grabbing;
+}
+.bookmark-card.dragging {
+  opacity: 0.4;
+  border-style: dashed;
+}
+
+/* Card Header */
 .bookmark-card-header {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 9px;
   overflow: hidden;
+  min-width: 0;
 }
 
+/* Icon */
 .bookmark-card-icon {
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  flex-shrink: 0;
 }
 
 .bookmark-icon-img {
-  width: 18px;
-  height: 18px;
+  width: 16px;
+  height: 16px;
   object-fit: contain;
+  border-radius: 2px;
 }
 
 .bookmark-icon-fallback {
+  width: 18px;
+  height: 18px;
+  border-radius: 4px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
   font-weight: 600;
-  font-size: 13px;
-  color: var(--text-h, #ffffff);
+  color: var(--text-secondary);
 }
 
+/* Title */
 .bookmark-card-title {
+  font-size: 13px;
   font-weight: 500;
-  font-size: 14px;
+  color: var(--text-primary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+  flex: 1;
+}
+
+/* Footer / Last Visited */
+.bookmark-card-footer {
+  display: flex;
+  align-items: center;
+  padding-left: 27px;
+}
+
+.bookmark-card-visited {
+  font-size: 11px;
+  color: var(--text-placeholder);
+  display: flex;
+  align-items: center;
+  gap: 3px;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
-/* Row 2: Last Visited */
-.bookmark-card-footer {
-  display: flex;
-  align-items: center;
-}
-
-.bookmark-card-visited {
-  font-size: 11px;
-  opacity: 0.65;
-  display: flex;
-  align-items: center;
-  gap: 4px;
-}
-
 .history-icon-img {
-  width: 12px;
-  height: 12px;
+  width: 10px;
+  height: 10px;
   object-fit: contain;
+  opacity: 0.5;
 }
 
+/* ─── Three-dot menu button ───────────────────────────────────── */
+.bm-menu-btn {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 24px;
+  height: 24px;
+  border-radius: var(--radius-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  line-height: 1;
+  color: var(--text-placeholder);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0;
+  transition: opacity var(--transition), background var(--transition), color var(--transition);
+  z-index: 1;
+}
+
+/* Show ⋮ button when hovering the wrapper */
+.bookmark-card-wrapper:hover .bm-menu-btn {
+  opacity: 1;
+}
+
+.bm-menu-btn:hover {
+  background: var(--bg-active);
+  color: var(--text-primary);
+}
+
+/* Keep it visible when menu is open */
+.bm-menu-btn[aria-expanded="true"] {
+  opacity: 1;
+  background: var(--bg-active);
+  color: var(--text-primary);
+}
+
+/* ─── Dropdown ────────────────────────────────────────────────── */
+.bm-menu-dropdown {
+  position: absolute;
+  right: 0;
+  top: calc(100% + 4px);
+  width: 130px;
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-md);
+  padding: 4px;
+  z-index: 100;
+  animation: dropIn 0.12s ease;
+}
+
+@keyframes dropIn {
+  from { opacity: 0; transform: translateY(-6px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+.bm-menu-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 7px 10px;
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-secondary);
+  border-radius: calc(var(--radius) - 2px);
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: background var(--transition), color var(--transition);
+  text-align: left;
+}
+
+.bm-menu-item:hover {
+  background: var(--bg-active);
+  color: var(--text-primary);
+}
+
+.bm-menu-item.danger {
+  color: var(--danger);
+}
+
+.bm-menu-item.danger:hover {
+  background: var(--danger-light);
+  color: var(--danger);
+}

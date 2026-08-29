@@ -5,22 +5,29 @@ import {
   signInWithEmailAndPassword,
   sendPasswordResetEmail,
 } from "firebase/auth";
+import "../styles/auth.css";
 
 export default function AuthenticatePage({ onClose, onSuccess }) {
   const [isSignIn, setIsSignIn] = useState(true);
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const [info, setInfo] = useState("");
 
-  const [authenticated, setAuthenticated] = useState(false);
+  function clearMessages() {
+    setError("");
+    setInfo("");
+  }
 
   function authenticateUser() {
+    clearMessages();
     if (isSignIn) {
       loginUser();
     } else {
       signUp();
     }
   }
+
   const loginUser = async () => {
     try {
       const userCredential = await signInWithEmailAndPassword(
@@ -29,11 +36,10 @@ export default function AuthenticatePage({ onClose, onSuccess }) {
         password,
       );
       console.log("user verified!, ", userCredential?.user?.email);
-      setAuthenticated(true);
       if (onSuccess) onSuccess();
-    } catch (error) {
-      console.error("Login failed:", error.message);
-      setError("Invalid credentials");
+    } catch (err) {
+      console.error("Login failed:", err.message);
+      setError("Invalid email or password. Please try again.");
     }
   };
 
@@ -45,73 +51,149 @@ export default function AuthenticatePage({ onClose, onSuccess }) {
         password,
       );
       console.log("user verified!, ", userCredential?.user?.email);
-      setAuthenticated(true);
       if (onSuccess) onSuccess();
-    } catch (error) {
-      console.error("signup failed:", error.message);
-      setError("Something went wrong, try again ");
+    } catch (err) {
+      console.error("signup failed:", err.message);
+      setError("Couldn't create account. " + (err.message || "Try again."));
     }
   };
 
   const forgetPassword = async () => {
+    clearMessages();
     try {
-      if (!email || email === " ") {
-        setError("Please put the email before");
+      if (!email || email.trim() === "") {
+        setError("Enter your email address first.");
         return;
       }
-
       await sendPasswordResetEmail(auth, email);
-      setError("Password reset email sent");
+      setInfo("Password reset email sent — check your inbox.");
     } catch (err) {
-      setError("Something went wrong, try again");
-      console.log("Error while forget passwrod :", err);
+      setError("Couldn't send reset email. Try again.");
+      console.log("Error while forget password:", err);
     }
   };
 
+  function switchTab(toSignIn) {
+    clearMessages();
+    setIsSignIn(toSignIn);
+  }
+
   return (
-    <>
-      <div>
-        <button onClick={onClose}> Close</button>
-        <div>
-          {isSignIn ? <p>Sign in</p> : <p>Sign up</p>}
+    <div className="auth-page">
+      <div className="auth-card">
+        <button
+          className="auth-close-btn"
+          onClick={onClose}
+          aria-label="Close"
+          id="auth-close-btn"
+        >
+          ✕
+        </button>
 
-          <div>
-            <label htmlFor="email"> Email </label>
+        <div className="auth-logo">
+          <div className="auth-logo-icon">🔖</div>
+          <h1>Smart Bookmark</h1>
+        </div>
+
+        <div className="auth-tabs" role="tablist">
+          <button
+            className={`auth-tab-btn ${isSignIn ? "active" : ""}`}
+            onClick={() => switchTab(true)}
+            role="tab"
+            aria-selected={isSignIn}
+            id="tab-signin"
+          >
+            Sign in
+          </button>
+          <button
+            className={`auth-tab-btn ${!isSignIn ? "active" : ""}`}
+            onClick={() => switchTab(false)}
+            role="tab"
+            aria-selected={!isSignIn}
+            id="tab-signup"
+          >
+            Sign up
+          </button>
+        </div>
+
+        <div className="auth-form">
+          <div className="auth-field">
+            <label className="auth-label" htmlFor="auth-email">Email</label>
             <input
+              id="auth-email"
+              className="auth-input"
               type="email"
-              name="email"
+              placeholder="you@example.com"
+              value={email}
               onChange={(e) => setEmail(e.target.value)}
+              autoComplete="email"
             />
+          </div>
 
-            <label htmlFor="password">Password</label>
+          <div className="auth-field">
+            <label className="auth-label" htmlFor="auth-password">Password</label>
             <input
+              id="auth-password"
+              className="auth-input"
               type="password"
-              name="password"
+              placeholder="••••••••"
+              value={password}
               onChange={(e) => setPassword(e.target.value)}
               onKeyDown={(e) => {
                 if (e.key === "Enter") authenticateUser();
               }}
+              autoComplete={isSignIn ? "current-password" : "new-password"}
             />
-
-            <button onClick={authenticateUser}>Submit</button>
           </div>
-          {error && <p>{error}</p>}
-          <div>
-            {isSignIn ? (
-              <p onClick={() => setIsSignIn(false)}>
-                {" "}
-                Don't have an account? Sign up
-              </p>
-            ) : (
-              <p onClick={() => setIsSignIn(true)}>
-                Already have an account? Sign in
-              </p>
-            )}
 
-            <p onClick={forgetPassword}>Forget password</p>
-          </div>
+          {error && (
+            <div className="auth-alert error" role="alert">
+              {error}
+            </div>
+          )}
+          {info && (
+            <div className="auth-alert info" role="status">
+              {info}
+            </div>
+          )}
+
+          <button
+            className="auth-submit-btn"
+            onClick={authenticateUser}
+            id="auth-submit-btn"
+          >
+            {isSignIn ? "Sign in" : "Create account"}
+          </button>
+        </div>
+
+        <div className="auth-footer">
+          <div className="auth-divider" />
+          {isSignIn ? (
+            <p
+              className="auth-link"
+              onClick={() => switchTab(false)}
+              id="auth-switch-to-signup"
+            >
+              No account yet? <span>Sign up for free</span>
+            </p>
+          ) : (
+            <p
+              className="auth-link"
+              onClick={() => switchTab(true)}
+              id="auth-switch-to-signin"
+            >
+              Already have an account? <span>Sign in</span>
+            </p>
+          )}
+          <p
+            className="auth-link"
+            onClick={forgetPassword}
+            id="auth-forgot-password"
+          >
+            Forgot password
+          </p>
         </div>
       </div>
-    </>
+    </div>
   );
 }

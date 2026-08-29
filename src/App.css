@@ -1,4 +1,1 @@
-.shorting option{
-  color : black;
-  font-size: 12px;
-}
+/* App-level overrides — intentionally empty; all styles live in index.css and src/styles/ */
