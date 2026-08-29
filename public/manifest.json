@@ -3,9 +3,12 @@
   "name": "Smart Bookmark",
   "version": "1.0.0",
   "description": "A Smart Chrome bookmark manager",
-  "permissions": [
-    "bookmarks"
-  ],
+  "permissions": ["bookmarks", "tabs"],
+  "incognito": "spanning",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
   "action": {
     "default_popup": "index.html"
   }

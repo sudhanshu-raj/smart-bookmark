@@ -1,6 +1,6 @@
 import { useState } from "react";
-import "./styles/bookMarkCard.css";
-import historyIcon from "./assets/history.png";
+import "../styles/bookMarkCard.css";
+import historyIcon from "../assets/history.png";
 
 export default function BookMarkCard({
   name,
