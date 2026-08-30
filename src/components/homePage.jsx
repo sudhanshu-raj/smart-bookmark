@@ -1,5 +1,10 @@
 import { useState, useEffect } from "react";
-import { getBookmarks, moveBookmarks, removeBookmark, updateBookmark } from "../services/bookmark";
+import {
+  getBookmarks,
+  moveBookmarks,
+  removeBookmark,
+  updateBookmark,
+} from "../services/bookmark";
 import BookMarkCard from "./bookMarkCard";
 import {
   collection,
@@ -27,12 +32,10 @@ export default function HomePage({ authenticatedRes = false }) {
   const [page, setPage] = useState("home");
   const [authenticated, setAuthenticated] = useState(authenticatedRes);
 
-  // Private bookmark add form state
   const [addTitle, setAddTitle] = useState("");
   const [addUrl, setAddUrl] = useState("");
 
-  // Edit modal state
-  const [editModal, setEditModal] = useState(null); // { id, title, url, isPrivate, docId? }
+  const [editModal, setEditModal] = useState(null); 
 
   useEffect(() => {
     getBookmarks()
@@ -135,7 +138,11 @@ export default function HomePage({ authenticatedRes = false }) {
     const targetItem = bookmarksURL[dropIndex];
     if (movedItem && targetItem) {
       try {
-        await moveBookmarks(movedItem.id, targetItem.parentId, targetItem.index);
+        await moveBookmarks(
+          movedItem.id,
+          targetItem.parentId,
+          targetItem.index,
+        );
       } catch (err) {
         console.log("Error while moving bookmark:", err);
       }
@@ -170,23 +177,48 @@ export default function HomePage({ authenticatedRes = false }) {
     if (enablePrivateBM) fetchDB_Bookmarks();
   }, [enablePrivateBM]);
 
-  async function handleAddPrivate() {
-    if (!addTitle.trim() || !addUrl.trim()) return;
+  async function getCurrentTab() {
+    const queryOptions = { active: true, currentWindow: true };
+    const [tab] = await chrome.tabs.query(queryOptions);
+    return tab;
+  }
+
+  async function handleAddPrivate(manual = false) {
+    let newTitle;
+    let newUrl;
+    if (manual) {
+      if (!addTitle.trim() || !addUrl.trim()) {
+        console.log("Input title or url is empty");
+        return;
+      }
+
+      newTitle = addTitle.trim();
+      newUrl = addUrl.trim();
+      setAddTitle("");
+      setAddUrl("");
+    } else {
+      const currentTab = await getCurrentTab();
+      if (!currentTab || !currentTab.url) {
+        console.log("Error whole getting tab details!");
+        return;
+      }
+      newTitle = currentTab.title;
+      newUrl = currentTab.url;
+    }
     try {
       const currentUser = auth.currentUser;
       if (!currentUser) return;
       const ref = collection(db, "users", currentUser.uid, "bookmarks");
-      const q = query(ref, where("url", "==", addUrl.trim()));
+      const q = query(ref, where("url", "==", newTitle.trim()));
       const exists = await getDocs(q);
       if (!exists.empty) return;
       await addDoc(ref, {
-        title: addTitle.trim(),
-        url: addUrl.trim(),
+        title: newTitle,
+        url: newUrl,
         isIncognito: false,
         createdAt: serverTimestamp(),
       });
-      setAddTitle("");
-      setAddUrl("");
+
       fetchDB_Bookmarks();
     } catch (err) {
       console.log("error while adding bookmark:", err);
@@ -218,8 +250,6 @@ export default function HomePage({ authenticatedRes = false }) {
     const { id, title, url, isPrivate, docId } = editModal;
     try {
       if (isPrivate) {
-        // update Firestore — simple approach: delete + re-add isn't ideal;
-        // for now just close (Firestore update omitted for brevity, add as needed)
       } else {
         await updateBookmark(id, title, url);
         setBookmarksURL((prev) =>
@@ -259,7 +289,9 @@ export default function HomePage({ authenticatedRes = false }) {
     <div className="home-page">
       <header className="home-header">
         <div className="home-header-left">
-          <div className="home-logo-icon" aria-hidden="true">🔖</div>
+          <div className="home-logo-icon" aria-hidden="true">
+            🔖
+          </div>
           <span className="home-title">Smart Bookmark</span>
         </div>
 
@@ -288,8 +320,19 @@ export default function HomePage({ authenticatedRes = false }) {
         <div className="home-search-inner">
           <span className="home-search-icon" aria-hidden="true">
             <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <circle cx="6" cy="6" r="4.5" stroke="currentColor" strokeWidth="1.5"/>
-              <path d="M10 10L12.5 12.5" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round"/>
+              <circle
+                cx="6"
+                cy="6"
+                r="4.5"
+                stroke="currentColor"
+                strokeWidth="1.5"
+              />
+              <path
+                d="M10 10L12.5 12.5"
+                stroke="currentColor"
+                strokeWidth="1.5"
+                strokeLinecap="round"
+              />
             </svg>
           </span>
           <input
@@ -311,7 +354,9 @@ export default function HomePage({ authenticatedRes = false }) {
           defaultValue=""
           onChange={(e) => shortBookMarksURL(e.target.value)}
         >
-          <option value="" disabled>Sort by…</option>
+          <option value="" disabled>
+            Sort by…
+          </option>
           <option value="name">Name</option>
           <option value="dateAdded">Date added</option>
           <option value="lastUsed">Last used</option>
@@ -354,29 +399,40 @@ export default function HomePage({ authenticatedRes = false }) {
           <section className="bm-section">
             <p className="bm-section-label">Private bookmarks</p>
             <div className="bm-add-row">
-              <input
-                className="bm-add-input"
-                type="text"
-                placeholder="Title"
-                value={addTitle}
-                onChange={(e) => setAddTitle(e.target.value)}
-                id="private-bm-title"
-              />
-              <input
-                className="bm-add-input"
-                type="url"
-                placeholder="https://…"
-                value={addUrl}
-                onChange={(e) => setAddUrl(e.target.value)}
-                id="private-bm-url"
-              />
-              <button
-                className="bm-add-btn"
-                onClick={handleAddPrivate}
-                id="btn-add-private"
-              >
-                Add
-              </button>
+              <div className="bm-add-row-inpt">
+                <input
+                  className="bm-add-input"
+                  type="text"
+                  placeholder="Title"
+                  value={addTitle}
+                  onChange={(e) => setAddTitle(e.target.value)}
+                  id="private-bm-title"
+                />
+                <input
+                  className="bm-add-input"
+                  type="url"
+                  placeholder="https://…"
+                  value={addUrl}
+                  onChange={(e) => setAddUrl(e.target.value)}
+                  id="private-bm-url"
+                />
+              </div>
+              <div className="bm-add-row-btn">
+                <button
+                  className="bm-add-btn"
+                  onClick={() => handleAddPrivate(true)}
+                  id="btn-add-private"
+                >
+                  Add
+                </button>
+                <button
+                  className="bm-add-btn"
+                  onClick={() => handleAddPrivate(false)}
+                  id="btn-add-private"
+                >
+                  Add Current Page
+                </button>
+              </div>
             </div>
 
             {privateBookMarks.length === 0 ? (
@@ -391,7 +447,15 @@ export default function HomePage({ authenticatedRes = false }) {
                     name={bm.title}
                     url={bm.url}
                     onDelete={() => handleDeletePrivateBM(bm.id)}
-                    onEdit={() => setEditModal({ id: bm.id, title: bm.title, url: bm.url, isPrivate: true, docId: bm.id })}
+                    onEdit={() =>
+                      setEditModal({
+                        id: bm.id,
+                        title: bm.title,
+                        url: bm.url,
+                        isPrivate: true,
+                        docId: bm.id,
+                      })
+                    }
                   />
                 ))}
               </div>
@@ -401,7 +465,7 @@ export default function HomePage({ authenticatedRes = false }) {
 
         {/* Main bookmarks */}
         <section className="bm-section">
-          {(authenticated && enablePrivateBM) && (
+          {authenticated && enablePrivateBM && (
             <p className="bm-section-label">All bookmarks</p>
           )}
           {filteredBookmarks.length === 0 ? (
@@ -426,7 +490,14 @@ export default function HomePage({ authenticatedRes = false }) {
                   onDragOver={handleDragOver}
                   onDrop={(e) => handleDrop(e, bm.id)}
                   onDelete={() => handleDeleteBrowserBM(bm.id)}
-                  onEdit={() => setEditModal({ id: bm.id, title: bm.title, url: bm.url, isPrivate: false })}
+                  onEdit={() =>
+                    setEditModal({
+                      id: bm.id,
+                      title: bm.title,
+                      url: bm.url,
+                      isPrivate: false,
+                    })
+                  }
                 />
               ))}
             </div>
@@ -434,11 +505,14 @@ export default function HomePage({ authenticatedRes = false }) {
         </section>
       </main>
 
-      {/* ── Edit Modal ─────────────────────────────────────────── */}
       {editModal && (
         <div className="edit-modal-overlay" onClick={() => setEditModal(null)}>
-          <div className="edit-modal" onClick={(e) => e.stopPropagation()}
-            role="dialog" aria-label="Edit bookmark">
+          <div
+            className="edit-modal"
+            onClick={(e) => e.stopPropagation()}
+            role="dialog"
+            aria-label="Edit bookmark"
+          >
             <p className="edit-modal-title">Edit bookmark</p>
             <div className="edit-modal-fields">
               <input
@@ -447,7 +521,9 @@ export default function HomePage({ authenticatedRes = false }) {
                 type="text"
                 placeholder="Title"
                 value={editModal.title}
-                onChange={(e) => setEditModal((m) => ({ ...m, title: e.target.value }))}
+                onChange={(e) =>
+                  setEditModal((m) => ({ ...m, title: e.target.value }))
+                }
               />
               <input
                 id="edit-bm-url"
@@ -455,14 +531,26 @@ export default function HomePage({ authenticatedRes = false }) {
                 type="url"
                 placeholder="https://…"
                 value={editModal.url}
-                onChange={(e) => setEditModal((m) => ({ ...m, url: e.target.value }))}
+                onChange={(e) =>
+                  setEditModal((m) => ({ ...m, url: e.target.value }))
+                }
               />
             </div>
             <div className="edit-modal-actions">
-              <button className="edit-modal-cancel" onClick={() => setEditModal(null)}
-                id="edit-modal-cancel">Cancel</button>
-              <button className="edit-modal-save bm-add-btn" onClick={handleSaveEdit}
-                id="edit-modal-save">Save</button>
+              <button
+                className="edit-modal-cancel"
+                onClick={() => setEditModal(null)}
+                id="edit-modal-cancel"
+              >
+                Cancel
+              </button>
+              <button
+                className="edit-modal-save bm-add-btn"
+                onClick={handleSaveEdit}
+                id="edit-modal-save"
+              >
+                Save
+              </button>
             </div>
           </div>
         </div>
