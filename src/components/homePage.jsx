@@ -17,7 +17,7 @@ import {
   where,
 } from "firebase/firestore";
 import { db, auth } from "../services/fireBaseConfig";
-import { signOut } from "firebase/auth";
+import { signOut, onAuthStateChanged } from "firebase/auth";
 import AuthenticatePage from "./authenticationPage";
 import "../styles/home.css";
 
@@ -38,6 +38,11 @@ export default function HomePage({ authenticatedRes = false }) {
   const [editModal, setEditModal] = useState(null); 
 
   useEffect(() => {
+
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setAuthenticated(!!user);
+    });
+
     getBookmarks()
       .then((bms) => {
         const rootChildren = bms[0]?.children || [];
@@ -46,6 +51,8 @@ export default function HomePage({ authenticatedRes = false }) {
         setBookmarks(transformBookmarkTree(rootChildren));
       })
       .catch(console.error);
+
+    return () => unsubscribe();
   }, []);
 
   function extractBookmarkUrls(nodes) {
@@ -388,7 +395,7 @@ export default function HomePage({ authenticatedRes = false }) {
               checked={enablePrivateBM}
               onChange={() => setEnablePrivateBM((p) => !p)}
             />
-            🔒 Private
+            DB BMs
           </label>
         )}
       </div>
