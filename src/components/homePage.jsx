@@ -16,6 +16,7 @@ import {
   query,
   where,
   updateDoc,
+  onSnapshot,
 } from "firebase/firestore";
 import { db, auth } from "../services/fireBaseConfig";
 import { signOut, onAuthStateChanged } from "firebase/auth";
@@ -36,11 +37,21 @@ export default function HomePage({ authenticatedRes = false }) {
   const [addTitle, setAddTitle] = useState("");
   const [addUrl, setAddUrl] = useState("");
 
-  const [editModal, setEditModal] = useState(null); 
+  const [editModal, setEditModal] = useState(null);
 
   useEffect(() => {
+    let unsubscribeSnapshot = null;
 
-    const unsubscribe = onAuthStateChanged(auth, (user) => {
+    const unsubscribeAuth = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        unsubscribeSnapshot = startListening(user.uid);
+      } else {
+        if (unsubscribeSnapshot) {
+          unsubscribeSnapshot();
+          unsubscribeSnapshot = null;
+        }
+        setPrivateBookmarks([]);
+      }
       setAuthenticated(!!user);
     });
 
@@ -53,7 +64,7 @@ export default function HomePage({ authenticatedRes = false }) {
       })
       .catch(console.error);
 
-    return () => unsubscribe();
+    return () => unsubscribeAuth();
   }, []);
 
   function extractBookmarkUrls(nodes) {
@@ -184,6 +195,25 @@ export default function HomePage({ authenticatedRes = false }) {
   useEffect(() => {
     if (enablePrivateBM) fetchDB_Bookmarks();
   }, [enablePrivateBM]);
+
+  function startListening(uid) {
+    const ref = collection(db, "users", uid, "bookmarks");
+
+    const unsubscribeSnapshot = onSnapshot(
+      ref,
+      (snapshot) => {
+        const data = snapshot.docs.map((doc) => ({
+          id: doc.id,
+          ...doc.data(),
+        }));
+        setPrivateBookmarks(data);
+      },
+      (error) => {
+        console.log("Firestore snapshot error: ", error);
+      },
+    );
+    return unsubscribeSnapshot;
+  }
 
   async function getCurrentTab() {
     const queryOptions = { active: true, currentWindow: true };
