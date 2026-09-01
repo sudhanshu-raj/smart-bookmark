@@ -326,12 +326,10 @@
   padding: 7px 10px;
   font-size: 13px;
   color: var(--text-primary);
-  background: var(--bg-secondary);
   border: 1px solid transparent;
   border-radius: var(--radius-sm);
   outline: none;
   transition: border-color var(--transition);
-  width: 15px;
 }
 .bm-add-input:focus {
   border-color: var(--accent);

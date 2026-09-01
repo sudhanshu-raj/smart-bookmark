@@ -15,6 +15,7 @@ import {
   serverTimestamp,
   query,
   where,
+  updateDoc,
 } from "firebase/firestore";
 import { db, auth } from "../services/fireBaseConfig";
 import { signOut, onAuthStateChanged } from "firebase/auth";
@@ -257,6 +258,29 @@ export default function HomePage({ authenticatedRes = false }) {
     const { id, title, url, isPrivate, docId } = editModal;
     try {
       if (isPrivate) {
+        const updatedData = {
+          title: title,
+          url: url,
+        };
+        const currentUser = auth.currentUser;
+        if (!currentUser) {
+          return;
+        }
+        const bookmarkRef = doc(
+          db,
+          "users",
+          currentUser.uid,
+          "bookmarks",
+          docId,
+        );
+        try {
+          await updateDoc(bookmarkRef, updatedData);
+          setPrivateBookmarks((prev) =>
+            prev.map((b) => (b.id == id ? { ...b, title, url } : b)),
+          );
+        } catch (err) {
+          console.log("Unalbe to update the DB bookmark");
+        }
       } else {
         await updateBookmark(id, title, url);
         setBookmarksURL((prev) =>
