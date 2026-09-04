@@ -350,9 +350,11 @@ export default function HomePage({ authenticatedRes = false }) {
     <div className="home-page">
       <header className="home-header">
         <div className="home-header-left">
-          <div className="home-logo-icon" aria-hidden="true">
-            🔖
-          </div>
+          <img
+            src="/icons/icon32.png"
+            alt="Smart Bookmark logo"
+            className="home-logo-icon"
+          />
           <span className="home-title">Smart Bookmark</span>
         </div>
 

@@ -91,7 +91,11 @@ export default function AuthenticatePage({ onClose, onSuccess }) {
         </button>
 
         <div className="auth-logo">
-          <div className="auth-logo-icon">🔖</div>
+          <img
+            src="/icons/icon48.png"
+            alt="Smart Bookmark logo"
+            className="auth-logo-icon"
+          />
           <h1>Smart Bookmark</h1>
         </div>
 
